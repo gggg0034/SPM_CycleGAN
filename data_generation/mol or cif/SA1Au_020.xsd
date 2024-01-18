@@ -1,0 +1,1344 @@
+<?xml version="1.0" encoding="latin1"?>
+<!DOCTYPE XSD []>
+<XSD Version="8.0" WrittenBy="Materials Studio 8.0">
+	<AtomisticTreeRoot ID="1" NumProperties="61" NumChildren="1">
+		<Property Name="AngleAxisType" DefinedOn="AngleBetweenPlanesBender" Type="Enumerated"/>
+		<Property Name="AngleEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="BeadDocumentID" DefinedOn="MesoMoleculeSet" Type="String"/>
+		<Property Name="BendBendEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="BendTorsionBendEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="BondEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="EFGAsymmetry" DefinedOn="Atom" Type="Double"/>
+		<Property Name="EFGQuadrupolarCoupling" DefinedOn="Atom" Type="Double"/>
+		<Property Name="ElectrostaticEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="FaceMillerIndex" DefinedOn="GrowthFace" Type="MillerIndex"/>
+		<Property Name="FacetTransparency" DefinedOn="GrowthFace" Type="Float"/>
+		<Property Name="FermiLevel" DefinedOn="ScalarFieldBase" Type="Double"/>
+		<Property Name="Force" DefinedOn="Matter" Type="CoDirection"/>
+		<Property Name="FrameFilter" DefinedOn="Trajectory" Type="String"/>
+		<Property Name="HarmonicForceConstant" DefinedOn="HarmonicRestraint" Type="Double"/>
+		<Property Name="HarmonicMinimum" DefinedOn="HarmonicRestraint" Type="Double"/>
+		<Property Name="HydrogenBondEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="ImportOrder" DefinedOn="Bondable" Type="UnsignedInteger"/>
+		<Property Name="InversionEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="IsBackboneAtom" DefinedOn="Atom" Type="Boolean"/>
+		<Property Name="IsChiralCenter" DefinedOn="Atom" Type="Boolean"/>
+		<Property Name="IsOutOfPlane" DefinedOn="Atom" Type="Boolean"/>
+		<Property Name="IsRepeatArrowVisible" DefinedOn="ElectrodeWire" Type="Boolean"/>
+		<Property Name="KineticEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="LineExtentPadding" DefinedOn="BestFitLineMonitor" Type="Double"/>
+		<Property Name="LinkageGroupName" DefinedOn="Linkage" Type="String"/>
+		<Property Name="ListIdentifier" DefinedOn="PropertyList" Type="String"/>
+		<Property Name="NMRShielding" DefinedOn="Atom" Type="Double"/>
+		<Property Name="NonBondEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="NormalMode" DefinedOn="Bondable" Type="Direction"/>
+		<Property Name="NormalModeFrequency" DefinedOn="Bondable" Type="Double"/>
+		<Property Name="NumScanSteps" DefinedOn="LinearScan" Type="UnsignedInteger"/>
+		<Property Name="OrbitalCutoffRadius" DefinedOn="Bondable" Type="Double"/>
+		<Property Name="PlaneExtentPadding" DefinedOn="BestFitPlaneMonitor" Type="Double"/>
+		<Property Name="PotentialEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="QuantizationValue" DefinedOn="ScalarFieldBase" Type="Double"/>
+		<Property Name="RelativeVelocity" DefinedOn="Matter" Type="Direction"/>
+		<Property Name="RepeatArrowScale" DefinedOn="ElectrodeWire" Type="Float"/>
+		<Property Name="RestraintEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="ScanEnd" DefinedOn="LinearScan" Type="Double"/>
+		<Property Name="ScanStart" DefinedOn="LinearScan" Type="Double"/>
+		<Property Name="SeparatedStretchStretchEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="ServerDipoleMoment" DefinedOn="MatterGroupProperties" Type="Direction"/>
+		<Property Name="SimulationStep" DefinedOn="Trajectory" Type="Integer"/>
+		<Property Name="SpinQuantizationDirection" DefinedOn="Atom" Type="Direction"/>
+		<Property Name="Stiffness" DefinedOn="SymmetryMatterHessian" Type="Matrix6x6"/>
+		<Property Name="StretchBendStretchEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="StretchStretchEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="StretchTorsionStretchEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="Temperature" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="ThreeBodyNonBondEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="TorsionBendBendEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="TorsionEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="TorsionStretchEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="TotalEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="Units" DefinedOn="ScalarFieldBase" Type="String"/>
+		<Property Name="ValenceCrossTermEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="ValenceDiagonalEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="VanDerWaalsEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="_Stress" DefinedOn="MatterSymmetrySystem" Type="Matrix"/>
+		<Property Name="_TrajectoryStress" DefinedOn="MatterSymmetrySystem" Type="Matrix"/>
+		<SymmetrySystem ID="2" Mapping="3" Children="ci(77):77+4" Normalized="1" Name="VESTA_phase_1" OverspecificationTolerance="0.05" HasSymmetryHistory="1">
+			<MappingSet ID="81" SymmetryDefinition="41" ActiveSystem="2" NumFamilies="1" OwnsTotalConstraintMapping="1" TotalConstraintMapping="3">
+				<MappingFamily ID="82" NumImageMappings="20">
+					<IdentityMapping ID="83" Element="1,0,0,0,0,1,0,0,0,0,1,0" Constraint="1,0,0,0,0,1,0,0,0,0,1,0" MappedObjects="ci(76):37+4,39+42" DefectObjects="41,84" NumImages="76" NumDefects="2">
+						<Atom3d ID="4" Mapping="83" Parent="2" Name="C1" DisplayStyle="Ball and Stick" XYZ="0.748221,0.116593,0.470914" Connections="43,65,70" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+						<Atom3d ID="5" Mapping="83" Parent="2" Name="C2" DisplayStyle="Ball and Stick" XYZ="0.680713,0.354253,0.471981" Connections="54,57,68" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+						<Atom3d ID="6" Mapping="83" Parent="2" Name="C3" DisplayStyle="Ball and Stick" XYZ="0.919631,0.828199,0.472755" Connections="42,64,85" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+						<Atom3d ID="7" Mapping="83" Parent="2" Name="C4" DisplayStyle="Ball and Stick" XYZ="0.864386,0.710493,0.472657" Connections="42,46,74" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+						<Atom3d ID="8" Mapping="83" Parent="2" Name="C5" DisplayStyle="Ball and Stick" XYZ="0.389132,0.293653,0.471539" Connections="44,48,52" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+						<Atom3d ID="9" Mapping="83" Parent="2" Name="C6" DisplayStyle="Ball and Stick" XYZ="0.685901,0.171818,0.471109" Connections="43,55,71" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+						<Atom3d ID="10" Mapping="83" Parent="2" Name="C7" DisplayStyle="Ball and Stick" XYZ="0.917939,0.286903,0.472858" Connections="45,66,86" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+						<Atom3d ID="11" Mapping="83" Parent="2" Name="C8" DisplayStyle="Ball and Stick" XYZ="0.513598,0.355496,0.471544" Connections="44,60,67" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+						<Atom3d ID="12" Mapping="83" Parent="2" Name="C9" DisplayStyle="Ball and Stick" XYZ="0.208859,0.118084,0.470745" Connections="49,61,78" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+						<Atom3d ID="13" Mapping="83" Parent="2" Name="C10" DisplayStyle="Ball and Stick" XYZ="0.749644,0.827787,0.471091" Connections="51,63,76" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+						<Atom3d ID="14" Mapping="83" Parent="2" Name="C11" DisplayStyle="Ball and Stick" XYZ="0.862109,0.348578,0.473011" Connections="45,53,73" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+						<Atom3d ID="15" Mapping="83" Parent="2" Name="C12" DisplayStyle="Ball and Stick" XYZ="0.744788,0.647448,0.471793" Connections="46,47,50" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+						<Atom3d ID="16" Mapping="83" Parent="2" Name="C13" DisplayStyle="Ball and Stick" XYZ="0.682037,0.522793,0.471779" Connections="47,58,59" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+						<Atom3d ID="17" Mapping="83" Parent="2" Name="C14" DisplayStyle="Ball and Stick" XYZ="0.326336,0.173927,0.470887" Connections="48,49,80" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+						<Atom3d ID="18" Mapping="83" Parent="2" Name="C15" DisplayStyle="Ball and Stick" XYZ="0.68788,0.710139,0.471026" Connections="50,51,79" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+						<Atom3d ID="19" Mapping="83" Parent="2" Name="C16" DisplayStyle="Ball and Stick" XYZ="0.326148,0.350335,0.472013" Connections="52,56,69" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+						<Atom3d ID="20" Mapping="83" Parent="2" Name="C17" DisplayStyle="Ball and Stick" XYZ="0.742491,0.291567,0.472121" Connections="53,54,55" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+						<Atom3d ID="21" Mapping="83" Parent="2" Name="C18" DisplayStyle="Ball and Stick" XYZ="0.208595,0.28797,0.47188" Connections="56,62,75" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+						<Atom3d ID="22" Mapping="83" Parent="2" Name="N1" DisplayStyle="Ball and Stick" XYZ="0.74304,0.469146,0.472186" Connections="57,58" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="N"/>
+						<Atom3d ID="23" Mapping="83" Parent="2" Name="N2" DisplayStyle="Ball and Stick" XYZ="0.567364,0.470386,0.471487" Connections="59,60" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="N"/>
+						<Atom3d ID="24" Mapping="83" Parent="2" Name="N3" DisplayStyle="Ball and Stick" XYZ="0.147885,0.172465,0.471204" Connections="61,62" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="N"/>
+						<Atom3d ID="25" Mapping="83" Parent="2" Name="N4" DisplayStyle="Ball and Stick" XYZ="0.864958,0.888867,0.471944" Connections="63,64" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="N"/>
+						<Atom3d ID="26" Mapping="83" Parent="2" Name="N5" DisplayStyle="Ball and Stick" XYZ="0.863632,0.171434,0.471774" Connections="65,66" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="N"/>
+						<Atom3d ID="27" Mapping="83" Parent="2" Name="N6" DisplayStyle="Ball and Stick" XYZ="0.566036,0.293216,0.471652" Connections="67,68" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="N"/>
+						<Atom3d ID="28" Mapping="83" Parent="2" Name="H1" DisplayStyle="Ball and Stick" XYZ="0.370255,0.442915,0.47235" Connections="69" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+						<Atom3d ID="29" Mapping="83" Parent="2" Name="H2" DisplayStyle="Ball and Stick" XYZ="0.705318,0.0240950000000001,0.470054" Connections="70" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+						<Atom3d ID="30" Mapping="83" Parent="2" Name="H3" DisplayStyle="Ball and Stick" XYZ="0.593362,0.123281,0.470402" Connections="71" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+						<Atom3d ID="31" Mapping="83" Parent="2" Name="H4" DisplayStyle="Ball and Stick" XYZ="0.012068,0.877764,0.473708" Connections="72" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H" Visible="0"/>
+						<Atom3d ID="32" Mapping="83" Parent="2" Name="H5" DisplayStyle="Ball and Stick" XYZ="0.909831,0.441147,0.47381" Connections="73" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+						<Atom3d ID="33" Mapping="83" Parent="2" Name="H6" DisplayStyle="Ball and Stick" XYZ="0.912795,0.666381,0.473182" Connections="74" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+						<Atom3d ID="34" Mapping="83" Parent="2" Name="H7" DisplayStyle="Ball and Stick" XYZ="0.159119,0.330929,0.472344" Connections="75" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+						<Atom3d ID="35" Mapping="83" Parent="2" Name="H8" DisplayStyle="Ball and Stick" XYZ="0.7062,0.876802,0.470532" Connections="76" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+						<Atom3d ID="36" Mapping="83" Parent="2" Name="H9" DisplayStyle="Ball and Stick" XYZ="0.010401,0.330435,0.473682" Connections="77" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H" Visible="0"/>
+						<Atom3d ID="37" Mapping="83" Parent="2" Name="H10" DisplayStyle="Ball and Stick" XYZ="0.15982,0.025588,0.470252" Connections="78" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+						<Atom3d ID="38" Mapping="83" Parent="2" Name="H11" DisplayStyle="Ball and Stick" XYZ="0.595381,0.66528,0.470205" Connections="79" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+						<Atom3d ID="39" Mapping="83" Parent="2" Name="H12" DisplayStyle="Ball and Stick" XYZ="0.371074,0.12617,0.470551" Connections="80" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+						<Atom3d ID="40" Mapping="83" Parent="2" Name="Au1" DisplayStyle="CPK" XYZ="0.959621,0.0790450000000001,0.471754" RadiusScale="50" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="Au"/>
+						<Bond ID="42" Mapping="83" Parent="2" Connects="7,6"/>
+						<Bond ID="43" Mapping="83" Parent="2" Connects="9,4"/>
+						<Bond ID="44" Mapping="83" Parent="2" Connects="11,8"/>
+						<Bond ID="45" Mapping="83" Parent="2" Connects="14,10" Type="Double"/>
+						<Bond ID="46" Mapping="83" Parent="2" Connects="15,7" Type="Double"/>
+						<Bond ID="47" Mapping="83" Parent="2" Connects="16,15"/>
+						<Bond ID="48" Mapping="83" Parent="2" Connects="17,8" Type="Double"/>
+						<Bond ID="49" Mapping="83" Parent="2" Connects="17,12"/>
+						<Bond ID="50" Mapping="83" Parent="2" Connects="18,15"/>
+						<Bond ID="51" Mapping="83" Parent="2" Connects="18,13" Type="Double"/>
+						<Bond ID="52" Mapping="83" Parent="2" Connects="19,8"/>
+						<Bond ID="53" Mapping="83" Parent="2" Connects="20,14"/>
+						<Bond ID="54" Mapping="83" Parent="2" Connects="20,5"/>
+						<Bond ID="55" Mapping="83" Parent="2" Connects="20,9" Type="Double"/>
+						<Bond ID="56" Mapping="83" Parent="2" Connects="21,19" Type="Double"/>
+						<Bond ID="57" Mapping="83" Parent="2" Connects="22,5"/>
+						<Bond ID="58" Mapping="83" Parent="2" Connects="22,16" Type="Double"/>
+						<Bond ID="59" Mapping="83" Parent="2" Connects="23,16"/>
+						<Bond ID="60" Mapping="83" Parent="2" Connects="23,11" Type="Double"/>
+						<Bond ID="61" Mapping="83" Parent="2" Connects="24,12" Type="Double"/>
+						<Bond ID="62" Mapping="83" Parent="2" Connects="24,21"/>
+						<Bond ID="63" Mapping="83" Parent="2" Connects="25,13"/>
+						<Bond ID="64" Mapping="83" Parent="2" Connects="25,6" Type="Double"/>
+						<Bond ID="65" Mapping="83" Parent="2" Connects="26,4" Type="Double"/>
+						<Bond ID="66" Mapping="83" Parent="2" Connects="26,10"/>
+						<Bond ID="67" Mapping="83" Parent="2" Connects="27,11"/>
+						<Bond ID="68" Mapping="83" Parent="2" Connects="27,5" Type="Double"/>
+						<Bond ID="69" Mapping="83" Parent="2" Connects="28,19"/>
+						<Bond ID="70" Mapping="83" Parent="2" Connects="29,4"/>
+						<Bond ID="71" Mapping="83" Parent="2" Connects="30,9"/>
+						<Bond ID="72" Mapping="83" Parent="2" Connects="31,87" Visible="0"/>
+						<Bond ID="73" Mapping="83" Parent="2" Connects="32,14"/>
+						<Bond ID="74" Mapping="83" Parent="2" Connects="33,7"/>
+						<Bond ID="75" Mapping="83" Parent="2" Connects="34,21"/>
+						<Bond ID="76" Mapping="83" Parent="2" Connects="35,13"/>
+						<Bond ID="77" Mapping="83" Parent="2" Connects="36,88" Visible="0"/>
+						<Bond ID="78" Mapping="83" Parent="2" Connects="37,12"/>
+						<Bond ID="79" Mapping="83" Parent="2" Connects="38,18"/>
+						<Bond ID="80" Mapping="83" Parent="2" Connects="39,17"/>
+						<SpaceGroup ID="41" Parent="2" Children="84" Name="P1" DisplayStyle="Dashed" AVector="11.7693057427789,-6.80232952927513,0" BVector="0,13.582718,0" CVector="0,0,17.77187" Color="0,0,0,255" OrientationBase="C along Z, B in YZ plane" Centering="3D Primitive-Centered" Lattice="3D Triclinic" GroupName="P1" Operators="1,0,0,0,0,1,0,0,0,0,1,0" DisplayRange="0,4,0,4,0,1" LineThickness="2" CylinderRadius="0.2" LabelAxes="1" ActiveSystem="2" ITNumber="1" LongName="P 1" Qualifier="Origin-1" SchoenfliesName="C1-1" System="Triclinic" Class="1"/>
+						<ReciprocalLattice3D ID="84" Parent="41" Visible="0"/>
+					</IdentityMapping>
+					<ImageMapping ID="89" Element="1,0,0,-1,0,1,0,0,0,0,1,0" Constraint="1,0,0,0,0,1,0,0,0,0,1,0" MappedObjects="0,0,87,0,0,0,88" NumImages="2">
+						<Atom3d ID="87" Mapping="89" ImageOf="6" Visible="0"/>
+						<Atom3d ID="88" Mapping="89" ImageOf="10" Visible="0"/>
+					</ImageMapping>
+					<ImageMapping ID="90" Element="1,0,0,1,0,1,0,0,0,0,1,0" Constraint="1,0,0,0,0,1,0,0,0,0,1,0" MappedObjects="ci(76):67+91,85,4+158,86,3+162" NumImages="76">
+						<Atom3d ID="91" Mapping="90" ImageOf="4"/>
+						<Atom3d ID="92" Mapping="90" ImageOf="5"/>
+						<Atom3d ID="93" Mapping="90" ImageOf="6"/>
+						<Atom3d ID="94" Mapping="90" ImageOf="7"/>
+						<Atom3d ID="95" Mapping="90" ImageOf="8"/>
+						<Atom3d ID="96" Mapping="90" ImageOf="9"/>
+						<Atom3d ID="97" Mapping="90" ImageOf="10"/>
+						<Atom3d ID="98" Mapping="90" ImageOf="11"/>
+						<Atom3d ID="99" Mapping="90" ImageOf="12"/>
+						<Atom3d ID="100" Mapping="90" ImageOf="13"/>
+						<Atom3d ID="101" Mapping="90" ImageOf="14"/>
+						<Atom3d ID="102" Mapping="90" ImageOf="15"/>
+						<Atom3d ID="103" Mapping="90" ImageOf="16"/>
+						<Atom3d ID="104" Mapping="90" ImageOf="17"/>
+						<Atom3d ID="105" Mapping="90" ImageOf="18"/>
+						<Atom3d ID="106" Mapping="90" ImageOf="19"/>
+						<Atom3d ID="107" Mapping="90" ImageOf="20"/>
+						<Atom3d ID="108" Mapping="90" ImageOf="21"/>
+						<Atom3d ID="109" Mapping="90" ImageOf="22"/>
+						<Atom3d ID="110" Mapping="90" ImageOf="23"/>
+						<Atom3d ID="111" Mapping="90" ImageOf="24"/>
+						<Atom3d ID="112" Mapping="90" ImageOf="25"/>
+						<Atom3d ID="113" Mapping="90" ImageOf="26"/>
+						<Atom3d ID="114" Mapping="90" ImageOf="27"/>
+						<Atom3d ID="115" Mapping="90" ImageOf="28"/>
+						<Atom3d ID="116" Mapping="90" ImageOf="29"/>
+						<Atom3d ID="117" Mapping="90" ImageOf="30"/>
+						<Atom3d ID="118" Mapping="90" ImageOf="31"/>
+						<Atom3d ID="119" Mapping="90" ImageOf="32"/>
+						<Atom3d ID="120" Mapping="90" ImageOf="33"/>
+						<Atom3d ID="121" Mapping="90" ImageOf="34"/>
+						<Atom3d ID="122" Mapping="90" ImageOf="35"/>
+						<Atom3d ID="123" Mapping="90" ImageOf="36"/>
+						<Atom3d ID="124" Mapping="90" ImageOf="37"/>
+						<Atom3d ID="125" Mapping="90" ImageOf="38"/>
+						<Atom3d ID="126" Mapping="90" ImageOf="39"/>
+						<Atom3d ID="127" Mapping="90" ImageOf="40"/>
+						<Bond ID="128" Mapping="90" ImageOf="42"/>
+						<Bond ID="129" Mapping="90" ImageOf="43"/>
+						<Bond ID="130" Mapping="90" ImageOf="44"/>
+						<Bond ID="131" Mapping="90" ImageOf="45"/>
+						<Bond ID="132" Mapping="90" ImageOf="46"/>
+						<Bond ID="133" Mapping="90" ImageOf="47"/>
+						<Bond ID="134" Mapping="90" ImageOf="48"/>
+						<Bond ID="135" Mapping="90" ImageOf="49"/>
+						<Bond ID="136" Mapping="90" ImageOf="50"/>
+						<Bond ID="137" Mapping="90" ImageOf="51"/>
+						<Bond ID="138" Mapping="90" ImageOf="52"/>
+						<Bond ID="139" Mapping="90" ImageOf="53"/>
+						<Bond ID="140" Mapping="90" ImageOf="54"/>
+						<Bond ID="141" Mapping="90" ImageOf="55"/>
+						<Bond ID="142" Mapping="90" ImageOf="56"/>
+						<Bond ID="143" Mapping="90" ImageOf="57"/>
+						<Bond ID="144" Mapping="90" ImageOf="58"/>
+						<Bond ID="145" Mapping="90" ImageOf="59"/>
+						<Bond ID="146" Mapping="90" ImageOf="60"/>
+						<Bond ID="147" Mapping="90" ImageOf="61"/>
+						<Bond ID="148" Mapping="90" ImageOf="62"/>
+						<Bond ID="149" Mapping="90" ImageOf="63"/>
+						<Bond ID="150" Mapping="90" ImageOf="64"/>
+						<Bond ID="151" Mapping="90" ImageOf="65"/>
+						<Bond ID="152" Mapping="90" ImageOf="66"/>
+						<Bond ID="153" Mapping="90" ImageOf="67"/>
+						<Bond ID="154" Mapping="90" ImageOf="68"/>
+						<Bond ID="155" Mapping="90" ImageOf="69"/>
+						<Bond ID="156" Mapping="90" ImageOf="70"/>
+						<Bond ID="157" Mapping="90" ImageOf="71"/>
+						<Bond ID="85" Mapping="90" ImageOf="72"/>
+						<Bond ID="158" Mapping="90" ImageOf="73"/>
+						<Bond ID="159" Mapping="90" ImageOf="74"/>
+						<Bond ID="160" Mapping="90" ImageOf="75"/>
+						<Bond ID="161" Mapping="90" ImageOf="76"/>
+						<Bond ID="86" Mapping="90" ImageOf="77"/>
+						<Bond ID="162" Mapping="90" ImageOf="78"/>
+						<Bond ID="163" Mapping="90" ImageOf="79"/>
+						<Bond ID="164" Mapping="90" ImageOf="80"/>
+					</ImageMapping>
+					<ImageMapping ID="165" Element="1,0,0,2,0,1,0,0,0,0,1,0" Constraint="1,0,0,0,0,1,0,0,0,0,1,0" MappedObjects="ci(76):76+166" NumImages="76">
+						<Atom3d ID="166" Mapping="165" ImageOf="4"/>
+						<Atom3d ID="167" Mapping="165" ImageOf="5"/>
+						<Atom3d ID="168" Mapping="165" ImageOf="6"/>
+						<Atom3d ID="169" Mapping="165" ImageOf="7"/>
+						<Atom3d ID="170" Mapping="165" ImageOf="8"/>
+						<Atom3d ID="171" Mapping="165" ImageOf="9"/>
+						<Atom3d ID="172" Mapping="165" ImageOf="10"/>
+						<Atom3d ID="173" Mapping="165" ImageOf="11"/>
+						<Atom3d ID="174" Mapping="165" ImageOf="12"/>
+						<Atom3d ID="175" Mapping="165" ImageOf="13"/>
+						<Atom3d ID="176" Mapping="165" ImageOf="14"/>
+						<Atom3d ID="177" Mapping="165" ImageOf="15"/>
+						<Atom3d ID="178" Mapping="165" ImageOf="16"/>
+						<Atom3d ID="179" Mapping="165" ImageOf="17"/>
+						<Atom3d ID="180" Mapping="165" ImageOf="18"/>
+						<Atom3d ID="181" Mapping="165" ImageOf="19"/>
+						<Atom3d ID="182" Mapping="165" ImageOf="20"/>
+						<Atom3d ID="183" Mapping="165" ImageOf="21"/>
+						<Atom3d ID="184" Mapping="165" ImageOf="22"/>
+						<Atom3d ID="185" Mapping="165" ImageOf="23"/>
+						<Atom3d ID="186" Mapping="165" ImageOf="24"/>
+						<Atom3d ID="187" Mapping="165" ImageOf="25"/>
+						<Atom3d ID="188" Mapping="165" ImageOf="26"/>
+						<Atom3d ID="189" Mapping="165" ImageOf="27"/>
+						<Atom3d ID="190" Mapping="165" ImageOf="28"/>
+						<Atom3d ID="191" Mapping="165" ImageOf="29"/>
+						<Atom3d ID="192" Mapping="165" ImageOf="30"/>
+						<Atom3d ID="193" Mapping="165" ImageOf="31"/>
+						<Atom3d ID="194" Mapping="165" ImageOf="32"/>
+						<Atom3d ID="195" Mapping="165" ImageOf="33"/>
+						<Atom3d ID="196" Mapping="165" ImageOf="34"/>
+						<Atom3d ID="197" Mapping="165" ImageOf="35"/>
+						<Atom3d ID="198" Mapping="165" ImageOf="36"/>
+						<Atom3d ID="199" Mapping="165" ImageOf="37"/>
+						<Atom3d ID="200" Mapping="165" ImageOf="38"/>
+						<Atom3d ID="201" Mapping="165" ImageOf="39"/>
+						<Atom3d ID="202" Mapping="165" ImageOf="40"/>
+						<Bond ID="203" Mapping="165" ImageOf="42"/>
+						<Bond ID="204" Mapping="165" ImageOf="43"/>
+						<Bond ID="205" Mapping="165" ImageOf="44"/>
+						<Bond ID="206" Mapping="165" ImageOf="45"/>
+						<Bond ID="207" Mapping="165" ImageOf="46"/>
+						<Bond ID="208" Mapping="165" ImageOf="47"/>
+						<Bond ID="209" Mapping="165" ImageOf="48"/>
+						<Bond ID="210" Mapping="165" ImageOf="49"/>
+						<Bond ID="211" Mapping="165" ImageOf="50"/>
+						<Bond ID="212" Mapping="165" ImageOf="51"/>
+						<Bond ID="213" Mapping="165" ImageOf="52"/>
+						<Bond ID="214" Mapping="165" ImageOf="53"/>
+						<Bond ID="215" Mapping="165" ImageOf="54"/>
+						<Bond ID="216" Mapping="165" ImageOf="55"/>
+						<Bond ID="217" Mapping="165" ImageOf="56"/>
+						<Bond ID="218" Mapping="165" ImageOf="57"/>
+						<Bond ID="219" Mapping="165" ImageOf="58"/>
+						<Bond ID="220" Mapping="165" ImageOf="59"/>
+						<Bond ID="221" Mapping="165" ImageOf="60"/>
+						<Bond ID="222" Mapping="165" ImageOf="61"/>
+						<Bond ID="223" Mapping="165" ImageOf="62"/>
+						<Bond ID="224" Mapping="165" ImageOf="63"/>
+						<Bond ID="225" Mapping="165" ImageOf="64"/>
+						<Bond ID="226" Mapping="165" ImageOf="65"/>
+						<Bond ID="227" Mapping="165" ImageOf="66"/>
+						<Bond ID="228" Mapping="165" ImageOf="67"/>
+						<Bond ID="229" Mapping="165" ImageOf="68"/>
+						<Bond ID="230" Mapping="165" ImageOf="69"/>
+						<Bond ID="231" Mapping="165" ImageOf="70"/>
+						<Bond ID="232" Mapping="165" ImageOf="71"/>
+						<Bond ID="233" Mapping="165" ImageOf="72"/>
+						<Bond ID="234" Mapping="165" ImageOf="73"/>
+						<Bond ID="235" Mapping="165" ImageOf="74"/>
+						<Bond ID="236" Mapping="165" ImageOf="75"/>
+						<Bond ID="237" Mapping="165" ImageOf="76"/>
+						<Bond ID="238" Mapping="165" ImageOf="77"/>
+						<Bond ID="239" Mapping="165" ImageOf="78"/>
+						<Bond ID="240" Mapping="165" ImageOf="79"/>
+						<Bond ID="241" Mapping="165" ImageOf="80"/>
+					</ImageMapping>
+					<ImageMapping ID="242" Element="1,0,0,3,0,1,0,0,0,0,1,0" Constraint="1,0,0,0,0,1,0,0,0,0,1,0" MappedObjects="ci(76):76+243" NumImages="76">
+						<Atom3d ID="243" Mapping="242" ImageOf="4"/>
+						<Atom3d ID="244" Mapping="242" ImageOf="5"/>
+						<Atom3d ID="245" Mapping="242" ImageOf="6"/>
+						<Atom3d ID="246" Mapping="242" ImageOf="7"/>
+						<Atom3d ID="247" Mapping="242" ImageOf="8"/>
+						<Atom3d ID="248" Mapping="242" ImageOf="9"/>
+						<Atom3d ID="249" Mapping="242" ImageOf="10"/>
+						<Atom3d ID="250" Mapping="242" ImageOf="11"/>
+						<Atom3d ID="251" Mapping="242" ImageOf="12"/>
+						<Atom3d ID="252" Mapping="242" ImageOf="13"/>
+						<Atom3d ID="253" Mapping="242" ImageOf="14"/>
+						<Atom3d ID="254" Mapping="242" ImageOf="15"/>
+						<Atom3d ID="255" Mapping="242" ImageOf="16"/>
+						<Atom3d ID="256" Mapping="242" ImageOf="17"/>
+						<Atom3d ID="257" Mapping="242" ImageOf="18"/>
+						<Atom3d ID="258" Mapping="242" ImageOf="19"/>
+						<Atom3d ID="259" Mapping="242" ImageOf="20"/>
+						<Atom3d ID="260" Mapping="242" ImageOf="21"/>
+						<Atom3d ID="261" Mapping="242" ImageOf="22"/>
+						<Atom3d ID="262" Mapping="242" ImageOf="23"/>
+						<Atom3d ID="263" Mapping="242" ImageOf="24"/>
+						<Atom3d ID="264" Mapping="242" ImageOf="25"/>
+						<Atom3d ID="265" Mapping="242" ImageOf="26"/>
+						<Atom3d ID="266" Mapping="242" ImageOf="27"/>
+						<Atom3d ID="267" Mapping="242" ImageOf="28"/>
+						<Atom3d ID="268" Mapping="242" ImageOf="29"/>
+						<Atom3d ID="269" Mapping="242" ImageOf="30"/>
+						<Atom3d ID="270" Mapping="242" ImageOf="31"/>
+						<Atom3d ID="271" Mapping="242" ImageOf="32"/>
+						<Atom3d ID="272" Mapping="242" ImageOf="33"/>
+						<Atom3d ID="273" Mapping="242" ImageOf="34"/>
+						<Atom3d ID="274" Mapping="242" ImageOf="35"/>
+						<Atom3d ID="275" Mapping="242" ImageOf="36"/>
+						<Atom3d ID="276" Mapping="242" ImageOf="37"/>
+						<Atom3d ID="277" Mapping="242" ImageOf="38"/>
+						<Atom3d ID="278" Mapping="242" ImageOf="39"/>
+						<Atom3d ID="279" Mapping="242" ImageOf="40"/>
+						<Bond ID="280" Mapping="242" ImageOf="42"/>
+						<Bond ID="281" Mapping="242" ImageOf="43"/>
+						<Bond ID="282" Mapping="242" ImageOf="44"/>
+						<Bond ID="283" Mapping="242" ImageOf="45"/>
+						<Bond ID="284" Mapping="242" ImageOf="46"/>
+						<Bond ID="285" Mapping="242" ImageOf="47"/>
+						<Bond ID="286" Mapping="242" ImageOf="48"/>
+						<Bond ID="287" Mapping="242" ImageOf="49"/>
+						<Bond ID="288" Mapping="242" ImageOf="50"/>
+						<Bond ID="289" Mapping="242" ImageOf="51"/>
+						<Bond ID="290" Mapping="242" ImageOf="52"/>
+						<Bond ID="291" Mapping="242" ImageOf="53"/>
+						<Bond ID="292" Mapping="242" ImageOf="54"/>
+						<Bond ID="293" Mapping="242" ImageOf="55"/>
+						<Bond ID="294" Mapping="242" ImageOf="56"/>
+						<Bond ID="295" Mapping="242" ImageOf="57"/>
+						<Bond ID="296" Mapping="242" ImageOf="58"/>
+						<Bond ID="297" Mapping="242" ImageOf="59"/>
+						<Bond ID="298" Mapping="242" ImageOf="60"/>
+						<Bond ID="299" Mapping="242" ImageOf="61"/>
+						<Bond ID="300" Mapping="242" ImageOf="62"/>
+						<Bond ID="301" Mapping="242" ImageOf="63"/>
+						<Bond ID="302" Mapping="242" ImageOf="64"/>
+						<Bond ID="303" Mapping="242" ImageOf="65"/>
+						<Bond ID="304" Mapping="242" ImageOf="66"/>
+						<Bond ID="305" Mapping="242" ImageOf="67"/>
+						<Bond ID="306" Mapping="242" ImageOf="68"/>
+						<Bond ID="307" Mapping="242" ImageOf="69"/>
+						<Bond ID="308" Mapping="242" ImageOf="70"/>
+						<Bond ID="309" Mapping="242" ImageOf="71"/>
+						<Bond ID="310" Mapping="242" ImageOf="72"/>
+						<Bond ID="311" Mapping="242" ImageOf="73"/>
+						<Bond ID="312" Mapping="242" ImageOf="74"/>
+						<Bond ID="313" Mapping="242" ImageOf="75"/>
+						<Bond ID="314" Mapping="242" ImageOf="76"/>
+						<Bond ID="315" Mapping="242" ImageOf="77"/>
+						<Bond ID="316" Mapping="242" ImageOf="78"/>
+						<Bond ID="317" Mapping="242" ImageOf="79"/>
+						<Bond ID="318" Mapping="242" ImageOf="80"/>
+					</ImageMapping>
+					<ImageMapping ID="319" Element="1,0,0,4,0,1,0,0,0,0,1,0" Constraint="1,0,0,0,0,1,0,0,0,0,1,0" MappedObjects="ci(73):27x0,320,4x0,321,34x0,322,4x0,323" NumImages="4">
+						<Atom3d ID="320" Mapping="319" ImageOf="31"/>
+						<Atom3d ID="321" Mapping="319" ImageOf="36"/>
+						<Bond ID="322" Mapping="319" ImageOf="72"/>
+						<Bond ID="323" Mapping="319" ImageOf="77"/>
+					</ImageMapping>
+					<ImageMapping ID="324" Element="1,0,0,0,0,1,0,1,0,0,1,0" Constraint="1,0,0,0,0,1,0,0,0,0,1,0" MappedObjects="ci(76):27+325,0,4+352,0,34+356,0,4+390,0,3+394" NumImages="72">
+						<Atom3d ID="325" Mapping="324" ImageOf="4"/>
+						<Atom3d ID="326" Mapping="324" ImageOf="5"/>
+						<Atom3d ID="327" Mapping="324" ImageOf="6"/>
+						<Atom3d ID="328" Mapping="324" ImageOf="7"/>
+						<Atom3d ID="329" Mapping="324" ImageOf="8"/>
+						<Atom3d ID="330" Mapping="324" ImageOf="9"/>
+						<Atom3d ID="331" Mapping="324" ImageOf="10"/>
+						<Atom3d ID="332" Mapping="324" ImageOf="11"/>
+						<Atom3d ID="333" Mapping="324" ImageOf="12"/>
+						<Atom3d ID="334" Mapping="324" ImageOf="13"/>
+						<Atom3d ID="335" Mapping="324" ImageOf="14"/>
+						<Atom3d ID="336" Mapping="324" ImageOf="15"/>
+						<Atom3d ID="337" Mapping="324" ImageOf="16"/>
+						<Atom3d ID="338" Mapping="324" ImageOf="17"/>
+						<Atom3d ID="339" Mapping="324" ImageOf="18"/>
+						<Atom3d ID="340" Mapping="324" ImageOf="19"/>
+						<Atom3d ID="341" Mapping="324" ImageOf="20"/>
+						<Atom3d ID="342" Mapping="324" ImageOf="21"/>
+						<Atom3d ID="343" Mapping="324" ImageOf="22"/>
+						<Atom3d ID="344" Mapping="324" ImageOf="23"/>
+						<Atom3d ID="345" Mapping="324" ImageOf="24"/>
+						<Atom3d ID="346" Mapping="324" ImageOf="25"/>
+						<Atom3d ID="347" Mapping="324" ImageOf="26"/>
+						<Atom3d ID="348" Mapping="324" ImageOf="27"/>
+						<Atom3d ID="349" Mapping="324" ImageOf="28"/>
+						<Atom3d ID="350" Mapping="324" ImageOf="29"/>
+						<Atom3d ID="351" Mapping="324" ImageOf="30"/>
+						<Atom3d ID="352" Mapping="324" ImageOf="32"/>
+						<Atom3d ID="353" Mapping="324" ImageOf="33"/>
+						<Atom3d ID="354" Mapping="324" ImageOf="34"/>
+						<Atom3d ID="355" Mapping="324" ImageOf="35"/>
+						<Atom3d ID="356" Mapping="324" ImageOf="37"/>
+						<Atom3d ID="357" Mapping="324" ImageOf="38"/>
+						<Atom3d ID="358" Mapping="324" ImageOf="39"/>
+						<Atom3d ID="359" Mapping="324" ImageOf="40"/>
+						<Bond ID="360" Mapping="324" ImageOf="42"/>
+						<Bond ID="361" Mapping="324" ImageOf="43"/>
+						<Bond ID="362" Mapping="324" ImageOf="44"/>
+						<Bond ID="363" Mapping="324" ImageOf="45"/>
+						<Bond ID="364" Mapping="324" ImageOf="46"/>
+						<Bond ID="365" Mapping="324" ImageOf="47"/>
+						<Bond ID="366" Mapping="324" ImageOf="48"/>
+						<Bond ID="367" Mapping="324" ImageOf="49"/>
+						<Bond ID="368" Mapping="324" ImageOf="50"/>
+						<Bond ID="369" Mapping="324" ImageOf="51"/>
+						<Bond ID="370" Mapping="324" ImageOf="52"/>
+						<Bond ID="371" Mapping="324" ImageOf="53"/>
+						<Bond ID="372" Mapping="324" ImageOf="54"/>
+						<Bond ID="373" Mapping="324" ImageOf="55"/>
+						<Bond ID="374" Mapping="324" ImageOf="56"/>
+						<Bond ID="375" Mapping="324" ImageOf="57"/>
+						<Bond ID="376" Mapping="324" ImageOf="58"/>
+						<Bond ID="377" Mapping="324" ImageOf="59"/>
+						<Bond ID="378" Mapping="324" ImageOf="60"/>
+						<Bond ID="379" Mapping="324" ImageOf="61"/>
+						<Bond ID="380" Mapping="324" ImageOf="62"/>
+						<Bond ID="381" Mapping="324" ImageOf="63"/>
+						<Bond ID="382" Mapping="324" ImageOf="64"/>
+						<Bond ID="383" Mapping="324" ImageOf="65"/>
+						<Bond ID="384" Mapping="324" ImageOf="66"/>
+						<Bond ID="385" Mapping="324" ImageOf="67"/>
+						<Bond ID="386" Mapping="324" ImageOf="68"/>
+						<Bond ID="387" Mapping="324" ImageOf="69"/>
+						<Bond ID="388" Mapping="324" ImageOf="70"/>
+						<Bond ID="389" Mapping="324" ImageOf="71"/>
+						<Bond ID="390" Mapping="324" ImageOf="73"/>
+						<Bond ID="391" Mapping="324" ImageOf="74"/>
+						<Bond ID="392" Mapping="324" ImageOf="75"/>
+						<Bond ID="393" Mapping="324" ImageOf="76"/>
+						<Bond ID="394" Mapping="324" ImageOf="78"/>
+						<Bond ID="395" Mapping="324" ImageOf="79"/>
+						<Bond ID="396" Mapping="324" ImageOf="80"/>
+					</ImageMapping>
+					<ImageMapping ID="397" Element="1,0,0,1,0,1,0,1,0,0,1,0" Constraint="1,0,0,0,0,1,0,0,0,0,1,0" MappedObjects="ci(76):76+398" NumImages="76">
+						<Atom3d ID="398" Mapping="397" ImageOf="4"/>
+						<Atom3d ID="399" Mapping="397" ImageOf="5"/>
+						<Atom3d ID="400" Mapping="397" ImageOf="6"/>
+						<Atom3d ID="401" Mapping="397" ImageOf="7"/>
+						<Atom3d ID="402" Mapping="397" ImageOf="8"/>
+						<Atom3d ID="403" Mapping="397" ImageOf="9"/>
+						<Atom3d ID="404" Mapping="397" ImageOf="10"/>
+						<Atom3d ID="405" Mapping="397" ImageOf="11"/>
+						<Atom3d ID="406" Mapping="397" ImageOf="12"/>
+						<Atom3d ID="407" Mapping="397" ImageOf="13"/>
+						<Atom3d ID="408" Mapping="397" ImageOf="14"/>
+						<Atom3d ID="409" Mapping="397" ImageOf="15"/>
+						<Atom3d ID="410" Mapping="397" ImageOf="16"/>
+						<Atom3d ID="411" Mapping="397" ImageOf="17"/>
+						<Atom3d ID="412" Mapping="397" ImageOf="18"/>
+						<Atom3d ID="413" Mapping="397" ImageOf="19"/>
+						<Atom3d ID="414" Mapping="397" ImageOf="20"/>
+						<Atom3d ID="415" Mapping="397" ImageOf="21"/>
+						<Atom3d ID="416" Mapping="397" ImageOf="22"/>
+						<Atom3d ID="417" Mapping="397" ImageOf="23"/>
+						<Atom3d ID="418" Mapping="397" ImageOf="24"/>
+						<Atom3d ID="419" Mapping="397" ImageOf="25"/>
+						<Atom3d ID="420" Mapping="397" ImageOf="26"/>
+						<Atom3d ID="421" Mapping="397" ImageOf="27"/>
+						<Atom3d ID="422" Mapping="397" ImageOf="28"/>
+						<Atom3d ID="423" Mapping="397" ImageOf="29"/>
+						<Atom3d ID="424" Mapping="397" ImageOf="30"/>
+						<Atom3d ID="425" Mapping="397" ImageOf="31"/>
+						<Atom3d ID="426" Mapping="397" ImageOf="32"/>
+						<Atom3d ID="427" Mapping="397" ImageOf="33"/>
+						<Atom3d ID="428" Mapping="397" ImageOf="34"/>
+						<Atom3d ID="429" Mapping="397" ImageOf="35"/>
+						<Atom3d ID="430" Mapping="397" ImageOf="36"/>
+						<Atom3d ID="431" Mapping="397" ImageOf="37"/>
+						<Atom3d ID="432" Mapping="397" ImageOf="38"/>
+						<Atom3d ID="433" Mapping="397" ImageOf="39"/>
+						<Atom3d ID="434" Mapping="397" ImageOf="40"/>
+						<Bond ID="435" Mapping="397" ImageOf="42"/>
+						<Bond ID="436" Mapping="397" ImageOf="43"/>
+						<Bond ID="437" Mapping="397" ImageOf="44"/>
+						<Bond ID="438" Mapping="397" ImageOf="45"/>
+						<Bond ID="439" Mapping="397" ImageOf="46"/>
+						<Bond ID="440" Mapping="397" ImageOf="47"/>
+						<Bond ID="441" Mapping="397" ImageOf="48"/>
+						<Bond ID="442" Mapping="397" ImageOf="49"/>
+						<Bond ID="443" Mapping="397" ImageOf="50"/>
+						<Bond ID="444" Mapping="397" ImageOf="51"/>
+						<Bond ID="445" Mapping="397" ImageOf="52"/>
+						<Bond ID="446" Mapping="397" ImageOf="53"/>
+						<Bond ID="447" Mapping="397" ImageOf="54"/>
+						<Bond ID="448" Mapping="397" ImageOf="55"/>
+						<Bond ID="449" Mapping="397" ImageOf="56"/>
+						<Bond ID="450" Mapping="397" ImageOf="57"/>
+						<Bond ID="451" Mapping="397" ImageOf="58"/>
+						<Bond ID="452" Mapping="397" ImageOf="59"/>
+						<Bond ID="453" Mapping="397" ImageOf="60"/>
+						<Bond ID="454" Mapping="397" ImageOf="61"/>
+						<Bond ID="455" Mapping="397" ImageOf="62"/>
+						<Bond ID="456" Mapping="397" ImageOf="63"/>
+						<Bond ID="457" Mapping="397" ImageOf="64"/>
+						<Bond ID="458" Mapping="397" ImageOf="65"/>
+						<Bond ID="459" Mapping="397" ImageOf="66"/>
+						<Bond ID="460" Mapping="397" ImageOf="67"/>
+						<Bond ID="461" Mapping="397" ImageOf="68"/>
+						<Bond ID="462" Mapping="397" ImageOf="69"/>
+						<Bond ID="463" Mapping="397" ImageOf="70"/>
+						<Bond ID="464" Mapping="397" ImageOf="71"/>
+						<Bond ID="465" Mapping="397" ImageOf="72"/>
+						<Bond ID="466" Mapping="397" ImageOf="73"/>
+						<Bond ID="467" Mapping="397" ImageOf="74"/>
+						<Bond ID="468" Mapping="397" ImageOf="75"/>
+						<Bond ID="469" Mapping="397" ImageOf="76"/>
+						<Bond ID="470" Mapping="397" ImageOf="77"/>
+						<Bond ID="471" Mapping="397" ImageOf="78"/>
+						<Bond ID="472" Mapping="397" ImageOf="79"/>
+						<Bond ID="473" Mapping="397" ImageOf="80"/>
+					</ImageMapping>
+					<ImageMapping ID="474" Element="1,0,0,2,0,1,0,1,0,0,1,0" Constraint="1,0,0,0,0,1,0,0,0,0,1,0" MappedObjects="ci(76):76+475" NumImages="76">
+						<Atom3d ID="475" Mapping="474" ImageOf="4"/>
+						<Atom3d ID="476" Mapping="474" ImageOf="5"/>
+						<Atom3d ID="477" Mapping="474" ImageOf="6"/>
+						<Atom3d ID="478" Mapping="474" ImageOf="7"/>
+						<Atom3d ID="479" Mapping="474" ImageOf="8"/>
+						<Atom3d ID="480" Mapping="474" ImageOf="9"/>
+						<Atom3d ID="481" Mapping="474" ImageOf="10"/>
+						<Atom3d ID="482" Mapping="474" ImageOf="11"/>
+						<Atom3d ID="483" Mapping="474" ImageOf="12"/>
+						<Atom3d ID="484" Mapping="474" ImageOf="13"/>
+						<Atom3d ID="485" Mapping="474" ImageOf="14"/>
+						<Atom3d ID="486" Mapping="474" ImageOf="15"/>
+						<Atom3d ID="487" Mapping="474" ImageOf="16"/>
+						<Atom3d ID="488" Mapping="474" ImageOf="17"/>
+						<Atom3d ID="489" Mapping="474" ImageOf="18"/>
+						<Atom3d ID="490" Mapping="474" ImageOf="19"/>
+						<Atom3d ID="491" Mapping="474" ImageOf="20"/>
+						<Atom3d ID="492" Mapping="474" ImageOf="21"/>
+						<Atom3d ID="493" Mapping="474" ImageOf="22"/>
+						<Atom3d ID="494" Mapping="474" ImageOf="23"/>
+						<Atom3d ID="495" Mapping="474" ImageOf="24"/>
+						<Atom3d ID="496" Mapping="474" ImageOf="25"/>
+						<Atom3d ID="497" Mapping="474" ImageOf="26"/>
+						<Atom3d ID="498" Mapping="474" ImageOf="27"/>
+						<Atom3d ID="499" Mapping="474" ImageOf="28"/>
+						<Atom3d ID="500" Mapping="474" ImageOf="29"/>
+						<Atom3d ID="501" Mapping="474" ImageOf="30"/>
+						<Atom3d ID="502" Mapping="474" ImageOf="31"/>
+						<Atom3d ID="503" Mapping="474" ImageOf="32"/>
+						<Atom3d ID="504" Mapping="474" ImageOf="33"/>
+						<Atom3d ID="505" Mapping="474" ImageOf="34"/>
+						<Atom3d ID="506" Mapping="474" ImageOf="35"/>
+						<Atom3d ID="507" Mapping="474" ImageOf="36"/>
+						<Atom3d ID="508" Mapping="474" ImageOf="37"/>
+						<Atom3d ID="509" Mapping="474" ImageOf="38"/>
+						<Atom3d ID="510" Mapping="474" ImageOf="39"/>
+						<Atom3d ID="511" Mapping="474" ImageOf="40"/>
+						<Bond ID="512" Mapping="474" ImageOf="42"/>
+						<Bond ID="513" Mapping="474" ImageOf="43"/>
+						<Bond ID="514" Mapping="474" ImageOf="44"/>
+						<Bond ID="515" Mapping="474" ImageOf="45"/>
+						<Bond ID="516" Mapping="474" ImageOf="46"/>
+						<Bond ID="517" Mapping="474" ImageOf="47"/>
+						<Bond ID="518" Mapping="474" ImageOf="48"/>
+						<Bond ID="519" Mapping="474" ImageOf="49"/>
+						<Bond ID="520" Mapping="474" ImageOf="50"/>
+						<Bond ID="521" Mapping="474" ImageOf="51"/>
+						<Bond ID="522" Mapping="474" ImageOf="52"/>
+						<Bond ID="523" Mapping="474" ImageOf="53"/>
+						<Bond ID="524" Mapping="474" ImageOf="54"/>
+						<Bond ID="525" Mapping="474" ImageOf="55"/>
+						<Bond ID="526" Mapping="474" ImageOf="56"/>
+						<Bond ID="527" Mapping="474" ImageOf="57"/>
+						<Bond ID="528" Mapping="474" ImageOf="58"/>
+						<Bond ID="529" Mapping="474" ImageOf="59"/>
+						<Bond ID="530" Mapping="474" ImageOf="60"/>
+						<Bond ID="531" Mapping="474" ImageOf="61"/>
+						<Bond ID="532" Mapping="474" ImageOf="62"/>
+						<Bond ID="533" Mapping="474" ImageOf="63"/>
+						<Bond ID="534" Mapping="474" ImageOf="64"/>
+						<Bond ID="535" Mapping="474" ImageOf="65"/>
+						<Bond ID="536" Mapping="474" ImageOf="66"/>
+						<Bond ID="537" Mapping="474" ImageOf="67"/>
+						<Bond ID="538" Mapping="474" ImageOf="68"/>
+						<Bond ID="539" Mapping="474" ImageOf="69"/>
+						<Bond ID="540" Mapping="474" ImageOf="70"/>
+						<Bond ID="541" Mapping="474" ImageOf="71"/>
+						<Bond ID="542" Mapping="474" ImageOf="72"/>
+						<Bond ID="543" Mapping="474" ImageOf="73"/>
+						<Bond ID="544" Mapping="474" ImageOf="74"/>
+						<Bond ID="545" Mapping="474" ImageOf="75"/>
+						<Bond ID="546" Mapping="474" ImageOf="76"/>
+						<Bond ID="547" Mapping="474" ImageOf="77"/>
+						<Bond ID="548" Mapping="474" ImageOf="78"/>
+						<Bond ID="549" Mapping="474" ImageOf="79"/>
+						<Bond ID="550" Mapping="474" ImageOf="80"/>
+					</ImageMapping>
+					<ImageMapping ID="551" Element="1,0,0,3,0,1,0,1,0,0,1,0" Constraint="1,0,0,0,0,1,0,0,0,0,1,0" MappedObjects="ci(76):76+552" NumImages="76">
+						<Atom3d ID="552" Mapping="551" ImageOf="4"/>
+						<Atom3d ID="553" Mapping="551" ImageOf="5"/>
+						<Atom3d ID="554" Mapping="551" ImageOf="6"/>
+						<Atom3d ID="555" Mapping="551" ImageOf="7"/>
+						<Atom3d ID="556" Mapping="551" ImageOf="8"/>
+						<Atom3d ID="557" Mapping="551" ImageOf="9"/>
+						<Atom3d ID="558" Mapping="551" ImageOf="10"/>
+						<Atom3d ID="559" Mapping="551" ImageOf="11"/>
+						<Atom3d ID="560" Mapping="551" ImageOf="12"/>
+						<Atom3d ID="561" Mapping="551" ImageOf="13"/>
+						<Atom3d ID="562" Mapping="551" ImageOf="14"/>
+						<Atom3d ID="563" Mapping="551" ImageOf="15"/>
+						<Atom3d ID="564" Mapping="551" ImageOf="16"/>
+						<Atom3d ID="565" Mapping="551" ImageOf="17"/>
+						<Atom3d ID="566" Mapping="551" ImageOf="18"/>
+						<Atom3d ID="567" Mapping="551" ImageOf="19"/>
+						<Atom3d ID="568" Mapping="551" ImageOf="20"/>
+						<Atom3d ID="569" Mapping="551" ImageOf="21"/>
+						<Atom3d ID="570" Mapping="551" ImageOf="22"/>
+						<Atom3d ID="571" Mapping="551" ImageOf="23"/>
+						<Atom3d ID="572" Mapping="551" ImageOf="24"/>
+						<Atom3d ID="573" Mapping="551" ImageOf="25"/>
+						<Atom3d ID="574" Mapping="551" ImageOf="26"/>
+						<Atom3d ID="575" Mapping="551" ImageOf="27"/>
+						<Atom3d ID="576" Mapping="551" ImageOf="28"/>
+						<Atom3d ID="577" Mapping="551" ImageOf="29"/>
+						<Atom3d ID="578" Mapping="551" ImageOf="30"/>
+						<Atom3d ID="579" Mapping="551" ImageOf="31"/>
+						<Atom3d ID="580" Mapping="551" ImageOf="32"/>
+						<Atom3d ID="581" Mapping="551" ImageOf="33"/>
+						<Atom3d ID="582" Mapping="551" ImageOf="34"/>
+						<Atom3d ID="583" Mapping="551" ImageOf="35"/>
+						<Atom3d ID="584" Mapping="551" ImageOf="36"/>
+						<Atom3d ID="585" Mapping="551" ImageOf="37"/>
+						<Atom3d ID="586" Mapping="551" ImageOf="38"/>
+						<Atom3d ID="587" Mapping="551" ImageOf="39"/>
+						<Atom3d ID="588" Mapping="551" ImageOf="40"/>
+						<Bond ID="589" Mapping="551" ImageOf="42"/>
+						<Bond ID="590" Mapping="551" ImageOf="43"/>
+						<Bond ID="591" Mapping="551" ImageOf="44"/>
+						<Bond ID="592" Mapping="551" ImageOf="45"/>
+						<Bond ID="593" Mapping="551" ImageOf="46"/>
+						<Bond ID="594" Mapping="551" ImageOf="47"/>
+						<Bond ID="595" Mapping="551" ImageOf="48"/>
+						<Bond ID="596" Mapping="551" ImageOf="49"/>
+						<Bond ID="597" Mapping="551" ImageOf="50"/>
+						<Bond ID="598" Mapping="551" ImageOf="51"/>
+						<Bond ID="599" Mapping="551" ImageOf="52"/>
+						<Bond ID="600" Mapping="551" ImageOf="53"/>
+						<Bond ID="601" Mapping="551" ImageOf="54"/>
+						<Bond ID="602" Mapping="551" ImageOf="55"/>
+						<Bond ID="603" Mapping="551" ImageOf="56"/>
+						<Bond ID="604" Mapping="551" ImageOf="57"/>
+						<Bond ID="605" Mapping="551" ImageOf="58"/>
+						<Bond ID="606" Mapping="551" ImageOf="59"/>
+						<Bond ID="607" Mapping="551" ImageOf="60"/>
+						<Bond ID="608" Mapping="551" ImageOf="61"/>
+						<Bond ID="609" Mapping="551" ImageOf="62"/>
+						<Bond ID="610" Mapping="551" ImageOf="63"/>
+						<Bond ID="611" Mapping="551" ImageOf="64"/>
+						<Bond ID="612" Mapping="551" ImageOf="65"/>
+						<Bond ID="613" Mapping="551" ImageOf="66"/>
+						<Bond ID="614" Mapping="551" ImageOf="67"/>
+						<Bond ID="615" Mapping="551" ImageOf="68"/>
+						<Bond ID="616" Mapping="551" ImageOf="69"/>
+						<Bond ID="617" Mapping="551" ImageOf="70"/>
+						<Bond ID="618" Mapping="551" ImageOf="71"/>
+						<Bond ID="619" Mapping="551" ImageOf="72"/>
+						<Bond ID="620" Mapping="551" ImageOf="73"/>
+						<Bond ID="621" Mapping="551" ImageOf="74"/>
+						<Bond ID="622" Mapping="551" ImageOf="75"/>
+						<Bond ID="623" Mapping="551" ImageOf="76"/>
+						<Bond ID="624" Mapping="551" ImageOf="77"/>
+						<Bond ID="625" Mapping="551" ImageOf="78"/>
+						<Bond ID="626" Mapping="551" ImageOf="79"/>
+						<Bond ID="627" Mapping="551" ImageOf="80"/>
+					</ImageMapping>
+					<ImageMapping ID="628" Element="1,0,0,4,0,1,0,1,0,0,1,0" Constraint="1,0,0,0,0,1,0,0,0,0,1,0" MappedObjects="ci(73):27x0,629,4x0,630,34x0,631,4x0,632" NumImages="4">
+						<Atom3d ID="629" Mapping="628" ImageOf="31"/>
+						<Atom3d ID="630" Mapping="628" ImageOf="36"/>
+						<Bond ID="631" Mapping="628" ImageOf="72"/>
+						<Bond ID="632" Mapping="628" ImageOf="77"/>
+					</ImageMapping>
+					<ImageMapping ID="633" Element="1,0,0,0,0,1,0,2,0,0,1,0" Constraint="1,0,0,0,0,1,0,0,0,0,1,0" MappedObjects="ci(76):27+634,0,4+661,0,34+665,0,4+699,0,3+703" NumImages="72">
+						<Atom3d ID="634" Mapping="633" ImageOf="4"/>
+						<Atom3d ID="635" Mapping="633" ImageOf="5"/>
+						<Atom3d ID="636" Mapping="633" ImageOf="6"/>
+						<Atom3d ID="637" Mapping="633" ImageOf="7"/>
+						<Atom3d ID="638" Mapping="633" ImageOf="8"/>
+						<Atom3d ID="639" Mapping="633" ImageOf="9"/>
+						<Atom3d ID="640" Mapping="633" ImageOf="10"/>
+						<Atom3d ID="641" Mapping="633" ImageOf="11"/>
+						<Atom3d ID="642" Mapping="633" ImageOf="12"/>
+						<Atom3d ID="643" Mapping="633" ImageOf="13"/>
+						<Atom3d ID="644" Mapping="633" ImageOf="14"/>
+						<Atom3d ID="645" Mapping="633" ImageOf="15"/>
+						<Atom3d ID="646" Mapping="633" ImageOf="16"/>
+						<Atom3d ID="647" Mapping="633" ImageOf="17"/>
+						<Atom3d ID="648" Mapping="633" ImageOf="18"/>
+						<Atom3d ID="649" Mapping="633" ImageOf="19"/>
+						<Atom3d ID="650" Mapping="633" ImageOf="20"/>
+						<Atom3d ID="651" Mapping="633" ImageOf="21"/>
+						<Atom3d ID="652" Mapping="633" ImageOf="22"/>
+						<Atom3d ID="653" Mapping="633" ImageOf="23"/>
+						<Atom3d ID="654" Mapping="633" ImageOf="24"/>
+						<Atom3d ID="655" Mapping="633" ImageOf="25"/>
+						<Atom3d ID="656" Mapping="633" ImageOf="26"/>
+						<Atom3d ID="657" Mapping="633" ImageOf="27"/>
+						<Atom3d ID="658" Mapping="633" ImageOf="28"/>
+						<Atom3d ID="659" Mapping="633" ImageOf="29"/>
+						<Atom3d ID="660" Mapping="633" ImageOf="30"/>
+						<Atom3d ID="661" Mapping="633" ImageOf="32"/>
+						<Atom3d ID="662" Mapping="633" ImageOf="33"/>
+						<Atom3d ID="663" Mapping="633" ImageOf="34"/>
+						<Atom3d ID="664" Mapping="633" ImageOf="35"/>
+						<Atom3d ID="665" Mapping="633" ImageOf="37"/>
+						<Atom3d ID="666" Mapping="633" ImageOf="38"/>
+						<Atom3d ID="667" Mapping="633" ImageOf="39"/>
+						<Atom3d ID="668" Mapping="633" ImageOf="40"/>
+						<Bond ID="669" Mapping="633" ImageOf="42"/>
+						<Bond ID="670" Mapping="633" ImageOf="43"/>
+						<Bond ID="671" Mapping="633" ImageOf="44"/>
+						<Bond ID="672" Mapping="633" ImageOf="45"/>
+						<Bond ID="673" Mapping="633" ImageOf="46"/>
+						<Bond ID="674" Mapping="633" ImageOf="47"/>
+						<Bond ID="675" Mapping="633" ImageOf="48"/>
+						<Bond ID="676" Mapping="633" ImageOf="49"/>
+						<Bond ID="677" Mapping="633" ImageOf="50"/>
+						<Bond ID="678" Mapping="633" ImageOf="51"/>
+						<Bond ID="679" Mapping="633" ImageOf="52"/>
+						<Bond ID="680" Mapping="633" ImageOf="53"/>
+						<Bond ID="681" Mapping="633" ImageOf="54"/>
+						<Bond ID="682" Mapping="633" ImageOf="55"/>
+						<Bond ID="683" Mapping="633" ImageOf="56"/>
+						<Bond ID="684" Mapping="633" ImageOf="57"/>
+						<Bond ID="685" Mapping="633" ImageOf="58"/>
+						<Bond ID="686" Mapping="633" ImageOf="59"/>
+						<Bond ID="687" Mapping="633" ImageOf="60"/>
+						<Bond ID="688" Mapping="633" ImageOf="61"/>
+						<Bond ID="689" Mapping="633" ImageOf="62"/>
+						<Bond ID="690" Mapping="633" ImageOf="63"/>
+						<Bond ID="691" Mapping="633" ImageOf="64"/>
+						<Bond ID="692" Mapping="633" ImageOf="65"/>
+						<Bond ID="693" Mapping="633" ImageOf="66"/>
+						<Bond ID="694" Mapping="633" ImageOf="67"/>
+						<Bond ID="695" Mapping="633" ImageOf="68"/>
+						<Bond ID="696" Mapping="633" ImageOf="69"/>
+						<Bond ID="697" Mapping="633" ImageOf="70"/>
+						<Bond ID="698" Mapping="633" ImageOf="71"/>
+						<Bond ID="699" Mapping="633" ImageOf="73"/>
+						<Bond ID="700" Mapping="633" ImageOf="74"/>
+						<Bond ID="701" Mapping="633" ImageOf="75"/>
+						<Bond ID="702" Mapping="633" ImageOf="76"/>
+						<Bond ID="703" Mapping="633" ImageOf="78"/>
+						<Bond ID="704" Mapping="633" ImageOf="79"/>
+						<Bond ID="705" Mapping="633" ImageOf="80"/>
+					</ImageMapping>
+					<ImageMapping ID="706" Element="1,0,0,1,0,1,0,2,0,0,1,0" Constraint="1,0,0,0,0,1,0,0,0,0,1,0" MappedObjects="ci(76):76+707" NumImages="76">
+						<Atom3d ID="707" Mapping="706" ImageOf="4"/>
+						<Atom3d ID="708" Mapping="706" ImageOf="5"/>
+						<Atom3d ID="709" Mapping="706" ImageOf="6"/>
+						<Atom3d ID="710" Mapping="706" ImageOf="7"/>
+						<Atom3d ID="711" Mapping="706" ImageOf="8"/>
+						<Atom3d ID="712" Mapping="706" ImageOf="9"/>
+						<Atom3d ID="713" Mapping="706" ImageOf="10"/>
+						<Atom3d ID="714" Mapping="706" ImageOf="11"/>
+						<Atom3d ID="715" Mapping="706" ImageOf="12"/>
+						<Atom3d ID="716" Mapping="706" ImageOf="13"/>
+						<Atom3d ID="717" Mapping="706" ImageOf="14"/>
+						<Atom3d ID="718" Mapping="706" ImageOf="15"/>
+						<Atom3d ID="719" Mapping="706" ImageOf="16"/>
+						<Atom3d ID="720" Mapping="706" ImageOf="17"/>
+						<Atom3d ID="721" Mapping="706" ImageOf="18"/>
+						<Atom3d ID="722" Mapping="706" ImageOf="19"/>
+						<Atom3d ID="723" Mapping="706" ImageOf="20"/>
+						<Atom3d ID="724" Mapping="706" ImageOf="21"/>
+						<Atom3d ID="725" Mapping="706" ImageOf="22"/>
+						<Atom3d ID="726" Mapping="706" ImageOf="23"/>
+						<Atom3d ID="727" Mapping="706" ImageOf="24"/>
+						<Atom3d ID="728" Mapping="706" ImageOf="25"/>
+						<Atom3d ID="729" Mapping="706" ImageOf="26"/>
+						<Atom3d ID="730" Mapping="706" ImageOf="27"/>
+						<Atom3d ID="731" Mapping="706" ImageOf="28"/>
+						<Atom3d ID="732" Mapping="706" ImageOf="29"/>
+						<Atom3d ID="733" Mapping="706" ImageOf="30"/>
+						<Atom3d ID="734" Mapping="706" ImageOf="31"/>
+						<Atom3d ID="735" Mapping="706" ImageOf="32"/>
+						<Atom3d ID="736" Mapping="706" ImageOf="33"/>
+						<Atom3d ID="737" Mapping="706" ImageOf="34"/>
+						<Atom3d ID="738" Mapping="706" ImageOf="35"/>
+						<Atom3d ID="739" Mapping="706" ImageOf="36"/>
+						<Atom3d ID="740" Mapping="706" ImageOf="37"/>
+						<Atom3d ID="741" Mapping="706" ImageOf="38"/>
+						<Atom3d ID="742" Mapping="706" ImageOf="39"/>
+						<Atom3d ID="743" Mapping="706" ImageOf="40"/>
+						<Bond ID="744" Mapping="706" ImageOf="42"/>
+						<Bond ID="745" Mapping="706" ImageOf="43"/>
+						<Bond ID="746" Mapping="706" ImageOf="44"/>
+						<Bond ID="747" Mapping="706" ImageOf="45"/>
+						<Bond ID="748" Mapping="706" ImageOf="46"/>
+						<Bond ID="749" Mapping="706" ImageOf="47"/>
+						<Bond ID="750" Mapping="706" ImageOf="48"/>
+						<Bond ID="751" Mapping="706" ImageOf="49"/>
+						<Bond ID="752" Mapping="706" ImageOf="50"/>
+						<Bond ID="753" Mapping="706" ImageOf="51"/>
+						<Bond ID="754" Mapping="706" ImageOf="52"/>
+						<Bond ID="755" Mapping="706" ImageOf="53"/>
+						<Bond ID="756" Mapping="706" ImageOf="54"/>
+						<Bond ID="757" Mapping="706" ImageOf="55"/>
+						<Bond ID="758" Mapping="706" ImageOf="56"/>
+						<Bond ID="759" Mapping="706" ImageOf="57"/>
+						<Bond ID="760" Mapping="706" ImageOf="58"/>
+						<Bond ID="761" Mapping="706" ImageOf="59"/>
+						<Bond ID="762" Mapping="706" ImageOf="60"/>
+						<Bond ID="763" Mapping="706" ImageOf="61"/>
+						<Bond ID="764" Mapping="706" ImageOf="62"/>
+						<Bond ID="765" Mapping="706" ImageOf="63"/>
+						<Bond ID="766" Mapping="706" ImageOf="64"/>
+						<Bond ID="767" Mapping="706" ImageOf="65"/>
+						<Bond ID="768" Mapping="706" ImageOf="66"/>
+						<Bond ID="769" Mapping="706" ImageOf="67"/>
+						<Bond ID="770" Mapping="706" ImageOf="68"/>
+						<Bond ID="771" Mapping="706" ImageOf="69"/>
+						<Bond ID="772" Mapping="706" ImageOf="70"/>
+						<Bond ID="773" Mapping="706" ImageOf="71"/>
+						<Bond ID="774" Mapping="706" ImageOf="72"/>
+						<Bond ID="775" Mapping="706" ImageOf="73"/>
+						<Bond ID="776" Mapping="706" ImageOf="74"/>
+						<Bond ID="777" Mapping="706" ImageOf="75"/>
+						<Bond ID="778" Mapping="706" ImageOf="76"/>
+						<Bond ID="779" Mapping="706" ImageOf="77"/>
+						<Bond ID="780" Mapping="706" ImageOf="78"/>
+						<Bond ID="781" Mapping="706" ImageOf="79"/>
+						<Bond ID="782" Mapping="706" ImageOf="80"/>
+					</ImageMapping>
+					<ImageMapping ID="783" Element="1,0,0,2,0,1,0,2,0,0,1,0" Constraint="1,0,0,0,0,1,0,0,0,0,1,0" MappedObjects="ci(76):76+784" NumImages="76">
+						<Atom3d ID="784" Mapping="783" ImageOf="4"/>
+						<Atom3d ID="785" Mapping="783" ImageOf="5"/>
+						<Atom3d ID="786" Mapping="783" ImageOf="6"/>
+						<Atom3d ID="787" Mapping="783" ImageOf="7"/>
+						<Atom3d ID="788" Mapping="783" ImageOf="8"/>
+						<Atom3d ID="789" Mapping="783" ImageOf="9"/>
+						<Atom3d ID="790" Mapping="783" ImageOf="10"/>
+						<Atom3d ID="791" Mapping="783" ImageOf="11"/>
+						<Atom3d ID="792" Mapping="783" ImageOf="12"/>
+						<Atom3d ID="793" Mapping="783" ImageOf="13"/>
+						<Atom3d ID="794" Mapping="783" ImageOf="14"/>
+						<Atom3d ID="795" Mapping="783" ImageOf="15"/>
+						<Atom3d ID="796" Mapping="783" ImageOf="16"/>
+						<Atom3d ID="797" Mapping="783" ImageOf="17"/>
+						<Atom3d ID="798" Mapping="783" ImageOf="18"/>
+						<Atom3d ID="799" Mapping="783" ImageOf="19"/>
+						<Atom3d ID="800" Mapping="783" ImageOf="20"/>
+						<Atom3d ID="801" Mapping="783" ImageOf="21"/>
+						<Atom3d ID="802" Mapping="783" ImageOf="22"/>
+						<Atom3d ID="803" Mapping="783" ImageOf="23"/>
+						<Atom3d ID="804" Mapping="783" ImageOf="24"/>
+						<Atom3d ID="805" Mapping="783" ImageOf="25"/>
+						<Atom3d ID="806" Mapping="783" ImageOf="26"/>
+						<Atom3d ID="807" Mapping="783" ImageOf="27"/>
+						<Atom3d ID="808" Mapping="783" ImageOf="28"/>
+						<Atom3d ID="809" Mapping="783" ImageOf="29"/>
+						<Atom3d ID="810" Mapping="783" ImageOf="30"/>
+						<Atom3d ID="811" Mapping="783" ImageOf="31"/>
+						<Atom3d ID="812" Mapping="783" ImageOf="32"/>
+						<Atom3d ID="813" Mapping="783" ImageOf="33"/>
+						<Atom3d ID="814" Mapping="783" ImageOf="34"/>
+						<Atom3d ID="815" Mapping="783" ImageOf="35"/>
+						<Atom3d ID="816" Mapping="783" ImageOf="36"/>
+						<Atom3d ID="817" Mapping="783" ImageOf="37"/>
+						<Atom3d ID="818" Mapping="783" ImageOf="38"/>
+						<Atom3d ID="819" Mapping="783" ImageOf="39"/>
+						<Atom3d ID="820" Mapping="783" ImageOf="40"/>
+						<Bond ID="821" Mapping="783" ImageOf="42"/>
+						<Bond ID="822" Mapping="783" ImageOf="43"/>
+						<Bond ID="823" Mapping="783" ImageOf="44"/>
+						<Bond ID="824" Mapping="783" ImageOf="45"/>
+						<Bond ID="825" Mapping="783" ImageOf="46"/>
+						<Bond ID="826" Mapping="783" ImageOf="47"/>
+						<Bond ID="827" Mapping="783" ImageOf="48"/>
+						<Bond ID="828" Mapping="783" ImageOf="49"/>
+						<Bond ID="829" Mapping="783" ImageOf="50"/>
+						<Bond ID="830" Mapping="783" ImageOf="51"/>
+						<Bond ID="831" Mapping="783" ImageOf="52"/>
+						<Bond ID="832" Mapping="783" ImageOf="53"/>
+						<Bond ID="833" Mapping="783" ImageOf="54"/>
+						<Bond ID="834" Mapping="783" ImageOf="55"/>
+						<Bond ID="835" Mapping="783" ImageOf="56"/>
+						<Bond ID="836" Mapping="783" ImageOf="57"/>
+						<Bond ID="837" Mapping="783" ImageOf="58"/>
+						<Bond ID="838" Mapping="783" ImageOf="59"/>
+						<Bond ID="839" Mapping="783" ImageOf="60"/>
+						<Bond ID="840" Mapping="783" ImageOf="61"/>
+						<Bond ID="841" Mapping="783" ImageOf="62"/>
+						<Bond ID="842" Mapping="783" ImageOf="63"/>
+						<Bond ID="843" Mapping="783" ImageOf="64"/>
+						<Bond ID="844" Mapping="783" ImageOf="65"/>
+						<Bond ID="845" Mapping="783" ImageOf="66"/>
+						<Bond ID="846" Mapping="783" ImageOf="67"/>
+						<Bond ID="847" Mapping="783" ImageOf="68"/>
+						<Bond ID="848" Mapping="783" ImageOf="69"/>
+						<Bond ID="849" Mapping="783" ImageOf="70"/>
+						<Bond ID="850" Mapping="783" ImageOf="71"/>
+						<Bond ID="851" Mapping="783" ImageOf="72"/>
+						<Bond ID="852" Mapping="783" ImageOf="73"/>
+						<Bond ID="853" Mapping="783" ImageOf="74"/>
+						<Bond ID="854" Mapping="783" ImageOf="75"/>
+						<Bond ID="855" Mapping="783" ImageOf="76"/>
+						<Bond ID="856" Mapping="783" ImageOf="77"/>
+						<Bond ID="857" Mapping="783" ImageOf="78"/>
+						<Bond ID="858" Mapping="783" ImageOf="79"/>
+						<Bond ID="859" Mapping="783" ImageOf="80"/>
+					</ImageMapping>
+					<ImageMapping ID="860" Element="1,0,0,3,0,1,0,2,0,0,1,0" Constraint="1,0,0,0,0,1,0,0,0,0,1,0" MappedObjects="ci(76):76+861" NumImages="76">
+						<Atom3d ID="861" Mapping="860" ImageOf="4"/>
+						<Atom3d ID="862" Mapping="860" ImageOf="5"/>
+						<Atom3d ID="863" Mapping="860" ImageOf="6"/>
+						<Atom3d ID="864" Mapping="860" ImageOf="7"/>
+						<Atom3d ID="865" Mapping="860" ImageOf="8"/>
+						<Atom3d ID="866" Mapping="860" ImageOf="9"/>
+						<Atom3d ID="867" Mapping="860" ImageOf="10"/>
+						<Atom3d ID="868" Mapping="860" ImageOf="11"/>
+						<Atom3d ID="869" Mapping="860" ImageOf="12"/>
+						<Atom3d ID="870" Mapping="860" ImageOf="13"/>
+						<Atom3d ID="871" Mapping="860" ImageOf="14"/>
+						<Atom3d ID="872" Mapping="860" ImageOf="15"/>
+						<Atom3d ID="873" Mapping="860" ImageOf="16"/>
+						<Atom3d ID="874" Mapping="860" ImageOf="17"/>
+						<Atom3d ID="875" Mapping="860" ImageOf="18"/>
+						<Atom3d ID="876" Mapping="860" ImageOf="19"/>
+						<Atom3d ID="877" Mapping="860" ImageOf="20"/>
+						<Atom3d ID="878" Mapping="860" ImageOf="21"/>
+						<Atom3d ID="879" Mapping="860" ImageOf="22"/>
+						<Atom3d ID="880" Mapping="860" ImageOf="23"/>
+						<Atom3d ID="881" Mapping="860" ImageOf="24"/>
+						<Atom3d ID="882" Mapping="860" ImageOf="25"/>
+						<Atom3d ID="883" Mapping="860" ImageOf="26"/>
+						<Atom3d ID="884" Mapping="860" ImageOf="27"/>
+						<Atom3d ID="885" Mapping="860" ImageOf="28"/>
+						<Atom3d ID="886" Mapping="860" ImageOf="29"/>
+						<Atom3d ID="887" Mapping="860" ImageOf="30"/>
+						<Atom3d ID="888" Mapping="860" ImageOf="31"/>
+						<Atom3d ID="889" Mapping="860" ImageOf="32"/>
+						<Atom3d ID="890" Mapping="860" ImageOf="33"/>
+						<Atom3d ID="891" Mapping="860" ImageOf="34"/>
+						<Atom3d ID="892" Mapping="860" ImageOf="35"/>
+						<Atom3d ID="893" Mapping="860" ImageOf="36"/>
+						<Atom3d ID="894" Mapping="860" ImageOf="37"/>
+						<Atom3d ID="895" Mapping="860" ImageOf="38"/>
+						<Atom3d ID="896" Mapping="860" ImageOf="39"/>
+						<Atom3d ID="897" Mapping="860" ImageOf="40"/>
+						<Bond ID="898" Mapping="860" ImageOf="42"/>
+						<Bond ID="899" Mapping="860" ImageOf="43"/>
+						<Bond ID="900" Mapping="860" ImageOf="44"/>
+						<Bond ID="901" Mapping="860" ImageOf="45"/>
+						<Bond ID="902" Mapping="860" ImageOf="46"/>
+						<Bond ID="903" Mapping="860" ImageOf="47"/>
+						<Bond ID="904" Mapping="860" ImageOf="48"/>
+						<Bond ID="905" Mapping="860" ImageOf="49"/>
+						<Bond ID="906" Mapping="860" ImageOf="50"/>
+						<Bond ID="907" Mapping="860" ImageOf="51"/>
+						<Bond ID="908" Mapping="860" ImageOf="52"/>
+						<Bond ID="909" Mapping="860" ImageOf="53"/>
+						<Bond ID="910" Mapping="860" ImageOf="54"/>
+						<Bond ID="911" Mapping="860" ImageOf="55"/>
+						<Bond ID="912" Mapping="860" ImageOf="56"/>
+						<Bond ID="913" Mapping="860" ImageOf="57"/>
+						<Bond ID="914" Mapping="860" ImageOf="58"/>
+						<Bond ID="915" Mapping="860" ImageOf="59"/>
+						<Bond ID="916" Mapping="860" ImageOf="60"/>
+						<Bond ID="917" Mapping="860" ImageOf="61"/>
+						<Bond ID="918" Mapping="860" ImageOf="62"/>
+						<Bond ID="919" Mapping="860" ImageOf="63"/>
+						<Bond ID="920" Mapping="860" ImageOf="64"/>
+						<Bond ID="921" Mapping="860" ImageOf="65"/>
+						<Bond ID="922" Mapping="860" ImageOf="66"/>
+						<Bond ID="923" Mapping="860" ImageOf="67"/>
+						<Bond ID="924" Mapping="860" ImageOf="68"/>
+						<Bond ID="925" Mapping="860" ImageOf="69"/>
+						<Bond ID="926" Mapping="860" ImageOf="70"/>
+						<Bond ID="927" Mapping="860" ImageOf="71"/>
+						<Bond ID="928" Mapping="860" ImageOf="72"/>
+						<Bond ID="929" Mapping="860" ImageOf="73"/>
+						<Bond ID="930" Mapping="860" ImageOf="74"/>
+						<Bond ID="931" Mapping="860" ImageOf="75"/>
+						<Bond ID="932" Mapping="860" ImageOf="76"/>
+						<Bond ID="933" Mapping="860" ImageOf="77"/>
+						<Bond ID="934" Mapping="860" ImageOf="78"/>
+						<Bond ID="935" Mapping="860" ImageOf="79"/>
+						<Bond ID="936" Mapping="860" ImageOf="80"/>
+					</ImageMapping>
+					<ImageMapping ID="937" Element="1,0,0,4,0,1,0,2,0,0,1,0" Constraint="1,0,0,0,0,1,0,0,0,0,1,0" MappedObjects="ci(73):27x0,938,4x0,939,34x0,940,4x0,941" NumImages="4">
+						<Atom3d ID="938" Mapping="937" ImageOf="31"/>
+						<Atom3d ID="939" Mapping="937" ImageOf="36"/>
+						<Bond ID="940" Mapping="937" ImageOf="72"/>
+						<Bond ID="941" Mapping="937" ImageOf="77"/>
+					</ImageMapping>
+					<ImageMapping ID="942" Element="1,0,0,0,0,1,0,3,0,0,1,0" Constraint="1,0,0,0,0,1,0,0,0,0,1,0" MappedObjects="ci(76):27+943,0,4+970,0,34+974,0,4+1008,0,3+1012" NumImages="72">
+						<Atom3d ID="943" Mapping="942" ImageOf="4"/>
+						<Atom3d ID="944" Mapping="942" ImageOf="5"/>
+						<Atom3d ID="945" Mapping="942" ImageOf="6"/>
+						<Atom3d ID="946" Mapping="942" ImageOf="7"/>
+						<Atom3d ID="947" Mapping="942" ImageOf="8"/>
+						<Atom3d ID="948" Mapping="942" ImageOf="9"/>
+						<Atom3d ID="949" Mapping="942" ImageOf="10"/>
+						<Atom3d ID="950" Mapping="942" ImageOf="11"/>
+						<Atom3d ID="951" Mapping="942" ImageOf="12"/>
+						<Atom3d ID="952" Mapping="942" ImageOf="13"/>
+						<Atom3d ID="953" Mapping="942" ImageOf="14"/>
+						<Atom3d ID="954" Mapping="942" ImageOf="15"/>
+						<Atom3d ID="955" Mapping="942" ImageOf="16"/>
+						<Atom3d ID="956" Mapping="942" ImageOf="17"/>
+						<Atom3d ID="957" Mapping="942" ImageOf="18"/>
+						<Atom3d ID="958" Mapping="942" ImageOf="19"/>
+						<Atom3d ID="959" Mapping="942" ImageOf="20"/>
+						<Atom3d ID="960" Mapping="942" ImageOf="21"/>
+						<Atom3d ID="961" Mapping="942" ImageOf="22"/>
+						<Atom3d ID="962" Mapping="942" ImageOf="23"/>
+						<Atom3d ID="963" Mapping="942" ImageOf="24"/>
+						<Atom3d ID="964" Mapping="942" ImageOf="25"/>
+						<Atom3d ID="965" Mapping="942" ImageOf="26"/>
+						<Atom3d ID="966" Mapping="942" ImageOf="27"/>
+						<Atom3d ID="967" Mapping="942" ImageOf="28"/>
+						<Atom3d ID="968" Mapping="942" ImageOf="29"/>
+						<Atom3d ID="969" Mapping="942" ImageOf="30"/>
+						<Atom3d ID="970" Mapping="942" ImageOf="32"/>
+						<Atom3d ID="971" Mapping="942" ImageOf="33"/>
+						<Atom3d ID="972" Mapping="942" ImageOf="34"/>
+						<Atom3d ID="973" Mapping="942" ImageOf="35"/>
+						<Atom3d ID="974" Mapping="942" ImageOf="37"/>
+						<Atom3d ID="975" Mapping="942" ImageOf="38"/>
+						<Atom3d ID="976" Mapping="942" ImageOf="39"/>
+						<Atom3d ID="977" Mapping="942" ImageOf="40"/>
+						<Bond ID="978" Mapping="942" ImageOf="42"/>
+						<Bond ID="979" Mapping="942" ImageOf="43"/>
+						<Bond ID="980" Mapping="942" ImageOf="44"/>
+						<Bond ID="981" Mapping="942" ImageOf="45"/>
+						<Bond ID="982" Mapping="942" ImageOf="46"/>
+						<Bond ID="983" Mapping="942" ImageOf="47"/>
+						<Bond ID="984" Mapping="942" ImageOf="48"/>
+						<Bond ID="985" Mapping="942" ImageOf="49"/>
+						<Bond ID="986" Mapping="942" ImageOf="50"/>
+						<Bond ID="987" Mapping="942" ImageOf="51"/>
+						<Bond ID="988" Mapping="942" ImageOf="52"/>
+						<Bond ID="989" Mapping="942" ImageOf="53"/>
+						<Bond ID="990" Mapping="942" ImageOf="54"/>
+						<Bond ID="991" Mapping="942" ImageOf="55"/>
+						<Bond ID="992" Mapping="942" ImageOf="56"/>
+						<Bond ID="993" Mapping="942" ImageOf="57"/>
+						<Bond ID="994" Mapping="942" ImageOf="58"/>
+						<Bond ID="995" Mapping="942" ImageOf="59"/>
+						<Bond ID="996" Mapping="942" ImageOf="60"/>
+						<Bond ID="997" Mapping="942" ImageOf="61"/>
+						<Bond ID="998" Mapping="942" ImageOf="62"/>
+						<Bond ID="999" Mapping="942" ImageOf="63"/>
+						<Bond ID="1000" Mapping="942" ImageOf="64"/>
+						<Bond ID="1001" Mapping="942" ImageOf="65"/>
+						<Bond ID="1002" Mapping="942" ImageOf="66"/>
+						<Bond ID="1003" Mapping="942" ImageOf="67"/>
+						<Bond ID="1004" Mapping="942" ImageOf="68"/>
+						<Bond ID="1005" Mapping="942" ImageOf="69"/>
+						<Bond ID="1006" Mapping="942" ImageOf="70"/>
+						<Bond ID="1007" Mapping="942" ImageOf="71"/>
+						<Bond ID="1008" Mapping="942" ImageOf="73"/>
+						<Bond ID="1009" Mapping="942" ImageOf="74"/>
+						<Bond ID="1010" Mapping="942" ImageOf="75"/>
+						<Bond ID="1011" Mapping="942" ImageOf="76"/>
+						<Bond ID="1012" Mapping="942" ImageOf="78"/>
+						<Bond ID="1013" Mapping="942" ImageOf="79"/>
+						<Bond ID="1014" Mapping="942" ImageOf="80"/>
+					</ImageMapping>
+					<ImageMapping ID="1015" Element="1,0,0,1,0,1,0,3,0,0,1,0" Constraint="1,0,0,0,0,1,0,0,0,0,1,0" MappedObjects="ci(76):76+1016" NumImages="76">
+						<Atom3d ID="1016" Mapping="1015" ImageOf="4"/>
+						<Atom3d ID="1017" Mapping="1015" ImageOf="5"/>
+						<Atom3d ID="1018" Mapping="1015" ImageOf="6"/>
+						<Atom3d ID="1019" Mapping="1015" ImageOf="7"/>
+						<Atom3d ID="1020" Mapping="1015" ImageOf="8"/>
+						<Atom3d ID="1021" Mapping="1015" ImageOf="9"/>
+						<Atom3d ID="1022" Mapping="1015" ImageOf="10"/>
+						<Atom3d ID="1023" Mapping="1015" ImageOf="11"/>
+						<Atom3d ID="1024" Mapping="1015" ImageOf="12"/>
+						<Atom3d ID="1025" Mapping="1015" ImageOf="13"/>
+						<Atom3d ID="1026" Mapping="1015" ImageOf="14"/>
+						<Atom3d ID="1027" Mapping="1015" ImageOf="15"/>
+						<Atom3d ID="1028" Mapping="1015" ImageOf="16"/>
+						<Atom3d ID="1029" Mapping="1015" ImageOf="17"/>
+						<Atom3d ID="1030" Mapping="1015" ImageOf="18"/>
+						<Atom3d ID="1031" Mapping="1015" ImageOf="19"/>
+						<Atom3d ID="1032" Mapping="1015" ImageOf="20"/>
+						<Atom3d ID="1033" Mapping="1015" ImageOf="21"/>
+						<Atom3d ID="1034" Mapping="1015" ImageOf="22"/>
+						<Atom3d ID="1035" Mapping="1015" ImageOf="23"/>
+						<Atom3d ID="1036" Mapping="1015" ImageOf="24"/>
+						<Atom3d ID="1037" Mapping="1015" ImageOf="25"/>
+						<Atom3d ID="1038" Mapping="1015" ImageOf="26"/>
+						<Atom3d ID="1039" Mapping="1015" ImageOf="27"/>
+						<Atom3d ID="1040" Mapping="1015" ImageOf="28"/>
+						<Atom3d ID="1041" Mapping="1015" ImageOf="29"/>
+						<Atom3d ID="1042" Mapping="1015" ImageOf="30"/>
+						<Atom3d ID="1043" Mapping="1015" ImageOf="31"/>
+						<Atom3d ID="1044" Mapping="1015" ImageOf="32"/>
+						<Atom3d ID="1045" Mapping="1015" ImageOf="33"/>
+						<Atom3d ID="1046" Mapping="1015" ImageOf="34"/>
+						<Atom3d ID="1047" Mapping="1015" ImageOf="35"/>
+						<Atom3d ID="1048" Mapping="1015" ImageOf="36"/>
+						<Atom3d ID="1049" Mapping="1015" ImageOf="37"/>
+						<Atom3d ID="1050" Mapping="1015" ImageOf="38"/>
+						<Atom3d ID="1051" Mapping="1015" ImageOf="39"/>
+						<Atom3d ID="1052" Mapping="1015" ImageOf="40"/>
+						<Bond ID="1053" Mapping="1015" ImageOf="42"/>
+						<Bond ID="1054" Mapping="1015" ImageOf="43"/>
+						<Bond ID="1055" Mapping="1015" ImageOf="44"/>
+						<Bond ID="1056" Mapping="1015" ImageOf="45"/>
+						<Bond ID="1057" Mapping="1015" ImageOf="46"/>
+						<Bond ID="1058" Mapping="1015" ImageOf="47"/>
+						<Bond ID="1059" Mapping="1015" ImageOf="48"/>
+						<Bond ID="1060" Mapping="1015" ImageOf="49"/>
+						<Bond ID="1061" Mapping="1015" ImageOf="50"/>
+						<Bond ID="1062" Mapping="1015" ImageOf="51"/>
+						<Bond ID="1063" Mapping="1015" ImageOf="52"/>
+						<Bond ID="1064" Mapping="1015" ImageOf="53"/>
+						<Bond ID="1065" Mapping="1015" ImageOf="54"/>
+						<Bond ID="1066" Mapping="1015" ImageOf="55"/>
+						<Bond ID="1067" Mapping="1015" ImageOf="56"/>
+						<Bond ID="1068" Mapping="1015" ImageOf="57"/>
+						<Bond ID="1069" Mapping="1015" ImageOf="58"/>
+						<Bond ID="1070" Mapping="1015" ImageOf="59"/>
+						<Bond ID="1071" Mapping="1015" ImageOf="60"/>
+						<Bond ID="1072" Mapping="1015" ImageOf="61"/>
+						<Bond ID="1073" Mapping="1015" ImageOf="62"/>
+						<Bond ID="1074" Mapping="1015" ImageOf="63"/>
+						<Bond ID="1075" Mapping="1015" ImageOf="64"/>
+						<Bond ID="1076" Mapping="1015" ImageOf="65"/>
+						<Bond ID="1077" Mapping="1015" ImageOf="66"/>
+						<Bond ID="1078" Mapping="1015" ImageOf="67"/>
+						<Bond ID="1079" Mapping="1015" ImageOf="68"/>
+						<Bond ID="1080" Mapping="1015" ImageOf="69"/>
+						<Bond ID="1081" Mapping="1015" ImageOf="70"/>
+						<Bond ID="1082" Mapping="1015" ImageOf="71"/>
+						<Bond ID="1083" Mapping="1015" ImageOf="72"/>
+						<Bond ID="1084" Mapping="1015" ImageOf="73"/>
+						<Bond ID="1085" Mapping="1015" ImageOf="74"/>
+						<Bond ID="1086" Mapping="1015" ImageOf="75"/>
+						<Bond ID="1087" Mapping="1015" ImageOf="76"/>
+						<Bond ID="1088" Mapping="1015" ImageOf="77"/>
+						<Bond ID="1089" Mapping="1015" ImageOf="78"/>
+						<Bond ID="1090" Mapping="1015" ImageOf="79"/>
+						<Bond ID="1091" Mapping="1015" ImageOf="80"/>
+					</ImageMapping>
+					<ImageMapping ID="1092" Element="1,0,0,2,0,1,0,3,0,0,1,0" Constraint="1,0,0,0,0,1,0,0,0,0,1,0" MappedObjects="ci(76):76+1093" NumImages="76">
+						<Atom3d ID="1093" Mapping="1092" ImageOf="4"/>
+						<Atom3d ID="1094" Mapping="1092" ImageOf="5"/>
+						<Atom3d ID="1095" Mapping="1092" ImageOf="6"/>
+						<Atom3d ID="1096" Mapping="1092" ImageOf="7"/>
+						<Atom3d ID="1097" Mapping="1092" ImageOf="8"/>
+						<Atom3d ID="1098" Mapping="1092" ImageOf="9"/>
+						<Atom3d ID="1099" Mapping="1092" ImageOf="10"/>
+						<Atom3d ID="1100" Mapping="1092" ImageOf="11"/>
+						<Atom3d ID="1101" Mapping="1092" ImageOf="12"/>
+						<Atom3d ID="1102" Mapping="1092" ImageOf="13"/>
+						<Atom3d ID="1103" Mapping="1092" ImageOf="14"/>
+						<Atom3d ID="1104" Mapping="1092" ImageOf="15"/>
+						<Atom3d ID="1105" Mapping="1092" ImageOf="16"/>
+						<Atom3d ID="1106" Mapping="1092" ImageOf="17"/>
+						<Atom3d ID="1107" Mapping="1092" ImageOf="18"/>
+						<Atom3d ID="1108" Mapping="1092" ImageOf="19"/>
+						<Atom3d ID="1109" Mapping="1092" ImageOf="20"/>
+						<Atom3d ID="1110" Mapping="1092" ImageOf="21"/>
+						<Atom3d ID="1111" Mapping="1092" ImageOf="22"/>
+						<Atom3d ID="1112" Mapping="1092" ImageOf="23"/>
+						<Atom3d ID="1113" Mapping="1092" ImageOf="24"/>
+						<Atom3d ID="1114" Mapping="1092" ImageOf="25"/>
+						<Atom3d ID="1115" Mapping="1092" ImageOf="26"/>
+						<Atom3d ID="1116" Mapping="1092" ImageOf="27"/>
+						<Atom3d ID="1117" Mapping="1092" ImageOf="28"/>
+						<Atom3d ID="1118" Mapping="1092" ImageOf="29"/>
+						<Atom3d ID="1119" Mapping="1092" ImageOf="30"/>
+						<Atom3d ID="1120" Mapping="1092" ImageOf="31"/>
+						<Atom3d ID="1121" Mapping="1092" ImageOf="32"/>
+						<Atom3d ID="1122" Mapping="1092" ImageOf="33"/>
+						<Atom3d ID="1123" Mapping="1092" ImageOf="34"/>
+						<Atom3d ID="1124" Mapping="1092" ImageOf="35"/>
+						<Atom3d ID="1125" Mapping="1092" ImageOf="36"/>
+						<Atom3d ID="1126" Mapping="1092" ImageOf="37"/>
+						<Atom3d ID="1127" Mapping="1092" ImageOf="38"/>
+						<Atom3d ID="1128" Mapping="1092" ImageOf="39"/>
+						<Atom3d ID="1129" Mapping="1092" ImageOf="40"/>
+						<Bond ID="1130" Mapping="1092" ImageOf="42"/>
+						<Bond ID="1131" Mapping="1092" ImageOf="43"/>
+						<Bond ID="1132" Mapping="1092" ImageOf="44"/>
+						<Bond ID="1133" Mapping="1092" ImageOf="45"/>
+						<Bond ID="1134" Mapping="1092" ImageOf="46"/>
+						<Bond ID="1135" Mapping="1092" ImageOf="47"/>
+						<Bond ID="1136" Mapping="1092" ImageOf="48"/>
+						<Bond ID="1137" Mapping="1092" ImageOf="49"/>
+						<Bond ID="1138" Mapping="1092" ImageOf="50"/>
+						<Bond ID="1139" Mapping="1092" ImageOf="51"/>
+						<Bond ID="1140" Mapping="1092" ImageOf="52"/>
+						<Bond ID="1141" Mapping="1092" ImageOf="53"/>
+						<Bond ID="1142" Mapping="1092" ImageOf="54"/>
+						<Bond ID="1143" Mapping="1092" ImageOf="55"/>
+						<Bond ID="1144" Mapping="1092" ImageOf="56"/>
+						<Bond ID="1145" Mapping="1092" ImageOf="57"/>
+						<Bond ID="1146" Mapping="1092" ImageOf="58"/>
+						<Bond ID="1147" Mapping="1092" ImageOf="59"/>
+						<Bond ID="1148" Mapping="1092" ImageOf="60"/>
+						<Bond ID="1149" Mapping="1092" ImageOf="61"/>
+						<Bond ID="1150" Mapping="1092" ImageOf="62"/>
+						<Bond ID="1151" Mapping="1092" ImageOf="63"/>
+						<Bond ID="1152" Mapping="1092" ImageOf="64"/>
+						<Bond ID="1153" Mapping="1092" ImageOf="65"/>
+						<Bond ID="1154" Mapping="1092" ImageOf="66"/>
+						<Bond ID="1155" Mapping="1092" ImageOf="67"/>
+						<Bond ID="1156" Mapping="1092" ImageOf="68"/>
+						<Bond ID="1157" Mapping="1092" ImageOf="69"/>
+						<Bond ID="1158" Mapping="1092" ImageOf="70"/>
+						<Bond ID="1159" Mapping="1092" ImageOf="71"/>
+						<Bond ID="1160" Mapping="1092" ImageOf="72"/>
+						<Bond ID="1161" Mapping="1092" ImageOf="73"/>
+						<Bond ID="1162" Mapping="1092" ImageOf="74"/>
+						<Bond ID="1163" Mapping="1092" ImageOf="75"/>
+						<Bond ID="1164" Mapping="1092" ImageOf="76"/>
+						<Bond ID="1165" Mapping="1092" ImageOf="77"/>
+						<Bond ID="1166" Mapping="1092" ImageOf="78"/>
+						<Bond ID="1167" Mapping="1092" ImageOf="79"/>
+						<Bond ID="1168" Mapping="1092" ImageOf="80"/>
+					</ImageMapping>
+					<ImageMapping ID="1169" Element="1,0,0,3,0,1,0,3,0,0,1,0" Constraint="1,0,0,0,0,1,0,0,0,0,1,0" MappedObjects="ci(76):76+1170" NumImages="76">
+						<Atom3d ID="1170" Mapping="1169" ImageOf="4"/>
+						<Atom3d ID="1171" Mapping="1169" ImageOf="5"/>
+						<Atom3d ID="1172" Mapping="1169" ImageOf="6"/>
+						<Atom3d ID="1173" Mapping="1169" ImageOf="7"/>
+						<Atom3d ID="1174" Mapping="1169" ImageOf="8"/>
+						<Atom3d ID="1175" Mapping="1169" ImageOf="9"/>
+						<Atom3d ID="1176" Mapping="1169" ImageOf="10"/>
+						<Atom3d ID="1177" Mapping="1169" ImageOf="11"/>
+						<Atom3d ID="1178" Mapping="1169" ImageOf="12"/>
+						<Atom3d ID="1179" Mapping="1169" ImageOf="13"/>
+						<Atom3d ID="1180" Mapping="1169" ImageOf="14"/>
+						<Atom3d ID="1181" Mapping="1169" ImageOf="15"/>
+						<Atom3d ID="1182" Mapping="1169" ImageOf="16"/>
+						<Atom3d ID="1183" Mapping="1169" ImageOf="17"/>
+						<Atom3d ID="1184" Mapping="1169" ImageOf="18"/>
+						<Atom3d ID="1185" Mapping="1169" ImageOf="19"/>
+						<Atom3d ID="1186" Mapping="1169" ImageOf="20"/>
+						<Atom3d ID="1187" Mapping="1169" ImageOf="21"/>
+						<Atom3d ID="1188" Mapping="1169" ImageOf="22"/>
+						<Atom3d ID="1189" Mapping="1169" ImageOf="23"/>
+						<Atom3d ID="1190" Mapping="1169" ImageOf="24"/>
+						<Atom3d ID="1191" Mapping="1169" ImageOf="25"/>
+						<Atom3d ID="1192" Mapping="1169" ImageOf="26"/>
+						<Atom3d ID="1193" Mapping="1169" ImageOf="27"/>
+						<Atom3d ID="1194" Mapping="1169" ImageOf="28"/>
+						<Atom3d ID="1195" Mapping="1169" ImageOf="29"/>
+						<Atom3d ID="1196" Mapping="1169" ImageOf="30"/>
+						<Atom3d ID="1197" Mapping="1169" ImageOf="31"/>
+						<Atom3d ID="1198" Mapping="1169" ImageOf="32"/>
+						<Atom3d ID="1199" Mapping="1169" ImageOf="33"/>
+						<Atom3d ID="1200" Mapping="1169" ImageOf="34"/>
+						<Atom3d ID="1201" Mapping="1169" ImageOf="35"/>
+						<Atom3d ID="1202" Mapping="1169" ImageOf="36"/>
+						<Atom3d ID="1203" Mapping="1169" ImageOf="37"/>
+						<Atom3d ID="1204" Mapping="1169" ImageOf="38"/>
+						<Atom3d ID="1205" Mapping="1169" ImageOf="39"/>
+						<Atom3d ID="1206" Mapping="1169" ImageOf="40"/>
+						<Bond ID="1207" Mapping="1169" ImageOf="42"/>
+						<Bond ID="1208" Mapping="1169" ImageOf="43"/>
+						<Bond ID="1209" Mapping="1169" ImageOf="44"/>
+						<Bond ID="1210" Mapping="1169" ImageOf="45"/>
+						<Bond ID="1211" Mapping="1169" ImageOf="46"/>
+						<Bond ID="1212" Mapping="1169" ImageOf="47"/>
+						<Bond ID="1213" Mapping="1169" ImageOf="48"/>
+						<Bond ID="1214" Mapping="1169" ImageOf="49"/>
+						<Bond ID="1215" Mapping="1169" ImageOf="50"/>
+						<Bond ID="1216" Mapping="1169" ImageOf="51"/>
+						<Bond ID="1217" Mapping="1169" ImageOf="52"/>
+						<Bond ID="1218" Mapping="1169" ImageOf="53"/>
+						<Bond ID="1219" Mapping="1169" ImageOf="54"/>
+						<Bond ID="1220" Mapping="1169" ImageOf="55"/>
+						<Bond ID="1221" Mapping="1169" ImageOf="56"/>
+						<Bond ID="1222" Mapping="1169" ImageOf="57"/>
+						<Bond ID="1223" Mapping="1169" ImageOf="58"/>
+						<Bond ID="1224" Mapping="1169" ImageOf="59"/>
+						<Bond ID="1225" Mapping="1169" ImageOf="60"/>
+						<Bond ID="1226" Mapping="1169" ImageOf="61"/>
+						<Bond ID="1227" Mapping="1169" ImageOf="62"/>
+						<Bond ID="1228" Mapping="1169" ImageOf="63"/>
+						<Bond ID="1229" Mapping="1169" ImageOf="64"/>
+						<Bond ID="1230" Mapping="1169" ImageOf="65"/>
+						<Bond ID="1231" Mapping="1169" ImageOf="66"/>
+						<Bond ID="1232" Mapping="1169" ImageOf="67"/>
+						<Bond ID="1233" Mapping="1169" ImageOf="68"/>
+						<Bond ID="1234" Mapping="1169" ImageOf="69"/>
+						<Bond ID="1235" Mapping="1169" ImageOf="70"/>
+						<Bond ID="1236" Mapping="1169" ImageOf="71"/>
+						<Bond ID="1237" Mapping="1169" ImageOf="72"/>
+						<Bond ID="1238" Mapping="1169" ImageOf="73"/>
+						<Bond ID="1239" Mapping="1169" ImageOf="74"/>
+						<Bond ID="1240" Mapping="1169" ImageOf="75"/>
+						<Bond ID="1241" Mapping="1169" ImageOf="76"/>
+						<Bond ID="1242" Mapping="1169" ImageOf="77"/>
+						<Bond ID="1243" Mapping="1169" ImageOf="78"/>
+						<Bond ID="1244" Mapping="1169" ImageOf="79"/>
+						<Bond ID="1245" Mapping="1169" ImageOf="80"/>
+					</ImageMapping>
+					<ImageMapping ID="1246" Element="1,0,0,4,0,1,0,3,0,0,1,0" Constraint="1,0,0,0,0,1,0,0,0,0,1,0" MappedObjects="ci(73):27x0,1247,4x0,1248,34x0,1249,4x0,1250" NumImages="4">
+						<Atom3d ID="1247" Mapping="1246" ImageOf="31"/>
+						<Atom3d ID="1248" Mapping="1246" ImageOf="36"/>
+						<Bond ID="1249" Mapping="1246" ImageOf="72"/>
+						<Bond ID="1250" Mapping="1246" ImageOf="77"/>
+					</ImageMapping>
+					<MappingRepairs NumRepairs="0"/>
+				</MappingFamily>
+				<InfiniteMapping ID="3" Element="1,0,0,0,0,1,0,0,0,0,1,0" MappedObjects="2"/>
+			</MappingSet>
+			<OriginalObjects ID="1251">
+				<SetCollection Objects="ci(37):37+4"/>
+			</OriginalObjects>
+		</SymmetrySystem>
+	</AtomisticTreeRoot>
+</XSD>

@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="latin1"?>
+<!DOCTYPE XSD []>
+<XSD Version="8.0" WrittenBy="Materials Studio 8.0">
+	<AtomisticTreeRoot ID="1" NumProperties="61" NumChildren="585">
+		<Property Name="AngleAxisType" DefinedOn="AngleBetweenPlanesBender" Type="Enumerated"/>
+		<Property Name="AngleEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="BeadDocumentID" DefinedOn="MesoMoleculeSet" Type="String"/>
+		<Property Name="BendBendEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="BendTorsionBendEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="BondEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="EFGAsymmetry" DefinedOn="Atom" Type="Double"/>
+		<Property Name="EFGQuadrupolarCoupling" DefinedOn="Atom" Type="Double"/>
+		<Property Name="ElectrostaticEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="FaceMillerIndex" DefinedOn="GrowthFace" Type="MillerIndex"/>
+		<Property Name="FacetTransparency" DefinedOn="GrowthFace" Type="Float"/>
+		<Property Name="FermiLevel" DefinedOn="ScalarFieldBase" Type="Double"/>
+		<Property Name="Force" DefinedOn="Matter" Type="CoDirection"/>
+		<Property Name="FrameFilter" DefinedOn="Trajectory" Type="String"/>
+		<Property Name="HarmonicForceConstant" DefinedOn="HarmonicRestraint" Type="Double"/>
+		<Property Name="HarmonicMinimum" DefinedOn="HarmonicRestraint" Type="Double"/>
+		<Property Name="HydrogenBondEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="ImportOrder" DefinedOn="Bondable" Type="UnsignedInteger"/>
+		<Property Name="InversionEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="IsBackboneAtom" DefinedOn="Atom" Type="Boolean"/>
+		<Property Name="IsChiralCenter" DefinedOn="Atom" Type="Boolean"/>
+		<Property Name="IsOutOfPlane" DefinedOn="Atom" Type="Boolean"/>
+		<Property Name="IsRepeatArrowVisible" DefinedOn="ElectrodeWire" Type="Boolean"/>
+		<Property Name="KineticEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="LineExtentPadding" DefinedOn="BestFitLineMonitor" Type="Double"/>
+		<Property Name="LinkageGroupName" DefinedOn="Linkage" Type="String"/>
+		<Property Name="ListIdentifier" DefinedOn="PropertyList" Type="String"/>
+		<Property Name="NMRShielding" DefinedOn="Atom" Type="Double"/>
+		<Property Name="NonBondEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="NormalMode" DefinedOn="Bondable" Type="Direction"/>
+		<Property Name="NormalModeFrequency" DefinedOn="Bondable" Type="Double"/>
+		<Property Name="NumScanSteps" DefinedOn="LinearScan" Type="UnsignedInteger"/>
+		<Property Name="OrbitalCutoffRadius" DefinedOn="Bondable" Type="Double"/>
+		<Property Name="PlaneExtentPadding" DefinedOn="BestFitPlaneMonitor" Type="Double"/>
+		<Property Name="PotentialEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="QuantizationValue" DefinedOn="ScalarFieldBase" Type="Double"/>
+		<Property Name="RelativeVelocity" DefinedOn="Matter" Type="Direction"/>
+		<Property Name="RepeatArrowScale" DefinedOn="ElectrodeWire" Type="Float"/>
+		<Property Name="RestraintEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="ScanEnd" DefinedOn="LinearScan" Type="Double"/>
+		<Property Name="ScanStart" DefinedOn="LinearScan" Type="Double"/>
+		<Property Name="SeparatedStretchStretchEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="ServerDipoleMoment" DefinedOn="MatterGroupProperties" Type="Direction"/>
+		<Property Name="SimulationStep" DefinedOn="Trajectory" Type="Integer"/>
+		<Property Name="SpinQuantizationDirection" DefinedOn="Atom" Type="Direction"/>
+		<Property Name="Stiffness" DefinedOn="SymmetryMatterHessian" Type="Matrix6x6"/>
+		<Property Name="StretchBendStretchEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="StretchStretchEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="StretchTorsionStretchEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="Temperature" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="ThreeBodyNonBondEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="TorsionBendBendEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="TorsionEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="TorsionStretchEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="TotalEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="Units" DefinedOn="ScalarFieldBase" Type="String"/>
+		<Property Name="ValenceCrossTermEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="ValenceDiagonalEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="VanDerWaalsEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="_Stress" DefinedOn="MatterSymmetrySystem" Type="Matrix"/>
+		<Property Name="_TrajectoryStress" DefinedOn="MatterSymmetrySystem" Type="Matrix"/>
+		<Atom3d ID="2" Name="Cu2" DisplayStyle="Ball and Stick" XYZ="16.8265647346083,49.4954229794452,8.777827861428" Connections="3,4" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="Cu"/>
+		<Atom3d ID="5" Name="Cu3" DisplayStyle="Ball and Stick" XYZ="16.3928911278915,28.7649688316218,8.783604775976" Connections="6,7" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="Cu"/>
+		<Atom3d ID="8" Name="C1" DisplayStyle="Ball and Stick" XYZ="19.8236600314216,44.0805266232656,8.837830255024" Connections="9,10,11" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="12" Name="C2" DisplayStyle="Ball and Stick" XYZ="19.1388307746369,42.8403671827951,8.835117135412" Connections="9,13,14" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="15" Name="C3" DisplayStyle="Ball and Stick" XYZ="19.1201866607453,45.3566588614914,8.82326800078" Connections="10,16,17" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="18" Name="C4" DisplayStyle="Ball and Stick" XYZ="29.8788481661093,38.8382096062707,8.834194305612" Connections="19,20,21" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="22" Name="C5" DisplayStyle="Ball and Stick" XYZ="18.8721623579911,32.7906990219023,8.837977907792" Connections="23,24,25" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="26" Name="C6" DisplayStyle="Ball and Stick" XYZ="19.7894671584545,46.6115184038426,8.826627101252" Connections="16,27,28" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="29" Name="C7" DisplayStyle="Ball and Stick" XYZ="19.0974753945956,47.8023823568527,8.808650376748" Connections="27,30,31" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="32" Name="C8" DisplayStyle="Ball and Stick" XYZ="17.0656628978931,46.6811446758164,8.785136673444" Connections="33,34,35" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="36" Name="C9" DisplayStyle="Ball and Stick" XYZ="17.7020102600603,45.4598573089835,8.802448960492" Connections="17,33,37" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="38" Name="C10" DisplayStyle="Ball and Stick" XYZ="17.4514664824559,32.7507639610066,8.805346646064" Connections="23,39,40" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="41" Name="C11" DisplayStyle="Ball and Stick" XYZ="16.7622461409322,31.5595934732942,8.77989500018" Connections="39,42,43" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="44" Name="C12" DisplayStyle="Ball and Stick" XYZ="18.7430572681668,30.3495412432243,8.811769541472" Connections="45,46,47" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="48" Name="C13" DisplayStyle="Ball and Stick" XYZ="19.4870221989358,31.508568447481,8.838162473752" Connections="24,45,49" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="50" Name="C14" DisplayStyle="Ball and Stick" XYZ="30.6214093894618,37.6251199692794,8.816845105372" Connections="19,51,52" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="53" Name="C15" DisplayStyle="Ball and Stick" XYZ="31.9981944176076,37.6180278348313,8.787259181984" Connections="51,54,55" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="56" Name="C16" DisplayStyle="Ball and Stick" XYZ="32.061649191335,39.9382295719823,8.785210499828" Connections="57,58,59" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="60" Name="C17" DisplayStyle="Ball and Stick" XYZ="30.6860159231207,40.0089872572187,8.81459340066" Connections="57,20,61" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="62" Name="C18" DisplayStyle="Ball and Stick" XYZ="21.9361677083264,40.2467770795836,8.880889493492" Connections="63,64,65" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="66" Name="C19" DisplayStyle="Ball and Stick" XYZ="21.2325503676587,39.0285383079102,8.886537211868" Connections="63,67,68" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="69" Name="C20" DisplayStyle="Ball and Stick" XYZ="21.886102143803,37.7830093382345,8.89552557412" Connections="67,70,71" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="72" Name="C21" DisplayStyle="Ball and Stick" XYZ="23.2927609451727,37.7822713351596,8.90143168484" Connections="70,73,74" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="75" Name="C22" DisplayStyle="Ball and Stick" XYZ="24.0455800304153,38.9708201292921,8.896300751152" Connections="73,76,77" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="78" Name="C23" DisplayStyle="Ball and Stick" XYZ="23.3423226147262,40.1897971446942,8.885632838664" Connections="76,64,79" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="80" Name="C24" DisplayStyle="Ball and Stick" XYZ="21.2217886107985,41.5437635452368,8.867803766928" Connections="65,81,82" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="83" Name="C25" DisplayStyle="Ball and Stick" XYZ="21.1212615642752,36.5158339940546,8.892701714932" Connections="71,84,85" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="86" Name="C26" DisplayStyle="Ball and Stick" XYZ="25.5266713173598,38.938933083903,8.894436634956" Connections="77,87,88" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="89" Name="C27" DisplayStyle="Ball and Stick" XYZ="19.7087359857542,36.4873581539474,8.870092384832" Connections="84,90,91" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="92" Name="C28" DisplayStyle="Ball and Stick" XYZ="18.9902897359681,35.3018610747506,8.855770066336" Connections="90,93,94" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="95" Name="C29" DisplayStyle="Ball and Stick" XYZ="19.626709083131,34.0363593962098,8.862543637068" Connections="93,25,96" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="97" Name="C30" DisplayStyle="Ball and Stick" XYZ="21.0424020014636,34.0633800199534,8.891409753212" Connections="96,98,99" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="100" Name="C31" DisplayStyle="Ball and Stick" XYZ="21.7548015116092,35.2526582230706,8.906156573416" Connections="98,85,101" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="102" Name="C32" DisplayStyle="Ball and Stick" XYZ="26.254871534066,37.7275807361342,8.896023902212" Connections="87,103,104" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="105" Name="C33" DisplayStyle="Ball and Stick" XYZ="27.6404387316898,37.6938922087349,8.88066801434" Connections="103,106,107" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="108" Name="C34" DisplayStyle="Ball and Stick" XYZ="28.4227356726798,38.8744238763667,8.862432897492" Connections="21,106,109" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="110" Name="C35" DisplayStyle="Ball and Stick" XYZ="27.6944634709778,40.0893018293784,8.869427947376" Connections="109,111,112" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="113" Name="C36" DisplayStyle="Ball and Stick" XYZ="26.3081764233969,40.1166037371469,8.884876118228" Connections="111,88,114" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="115" Name="C37" DisplayStyle="Ball and Stick" XYZ="21.903846445248,42.7815826368747,8.870646082712" Connections="81,116,117" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="118" Name="C38" DisplayStyle="Ball and Stick" XYZ="21.2376613023548,43.9973246291429,8.855806979528" Connections="11,116,119" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="120" Name="C39" DisplayStyle="Ball and Stick" XYZ="19.8110986496684,41.6279158149302,8.849457910504" Connections="82,13,121" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="122" Name="C40" DisplayStyle="Ball and Stick" XYZ="13.3606671531667,23.3753314819413,8.83775642864" Connections="123,124,125" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="126" Name="C41" DisplayStyle="Ball and Stick" XYZ="11.9478536346629,23.2803272316458,8.835061765624" Connections="123,127,128" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="129" Name="C42" DisplayStyle="Ball and Stick" XYZ="14.0569780167688,24.653989303956,8.82326800078" Connections="124,130,131" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="132" Name="C43" DisplayStyle="Ball and Stick" XYZ="14.4031538611876,12.0830744603687,8.833862086884" Connections="133,134,135" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="136" Name="C44" DisplayStyle="Ball and Stick" XYZ="3.35118949076134,18.0448383479369,8.837904081408" Connections="137,138,139" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="140" Name="C45" DisplayStyle="Ball and Stick" XYZ="15.4751904099517,24.7558726808975,8.82705160296" Connections="130,141,142" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="143" Name="C46" DisplayStyle="Ball and Stick" XYZ="16.1108539146595,25.9761780630073,8.809388640588" Connections="141,144,145" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="146" Name="C47" DisplayStyle="Ball and Stick" XYZ="14.078033628017,27.0986271076969,8.78506284706" Connections="147,148,149" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="150" Name="C48" DisplayStyle="Ball and Stick" XYZ="13.3851780442094,25.907439932607,8.801895262612" Connections="147,131,151" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="152" Name="C49" DisplayStyle="Ball and Stick" XYZ="2.55046439086694,19.2192535024977,8.805678864792" Connections="137,153,154" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="155" Name="C50" DisplayStyle="Ball and Stick" XYZ="1.17583891259271,19.1556253460831,8.77823390654" Connections="153,156,157" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="158" Name="C51" DisplayStyle="Ball and Stick" XYZ="1.22392488973385,16.8354859567076,8.809960795064" Connections="159,160,161" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="162" Name="C52" DisplayStyle="Ball and Stick" XYZ="2.60229358778553,16.8354016307502,8.838162473752" Connections="159,138,163" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="164" Name="C53" DisplayStyle="Ball and Stick" XYZ="13.7833630480361,10.803335924345,8.816512886644" Connections="133,165,166" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="167" Name="C54" DisplayStyle="Ball and Stick" XYZ="14.5236927365212,9.64275835859915,8.788514230512" Connections="165,168,169" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="170" Name="C55" DisplayStyle="Ball and Stick" XYZ="16.5106945733877,10.8435361954132,8.786484004952" Connections="171,172,173" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="174" Name="C56" DisplayStyle="Ball and Stick" XYZ="15.8244976016843,12.0381888148781,8.814279638528" Connections="134,171,175" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="176" Name="C57" DisplayStyle="Ball and Stick" XYZ="11.282352349229,19.5231909837863,8.881203255624" Connections="177,178,179" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="180" Name="C58" DisplayStyle="Ball and Stick" XYZ="9.87652137531002,19.4526917204676,8.886629494848" Connections="177,181,182" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="183" Name="C59" DisplayStyle="Ball and Stick" XYZ="9.18434964896178,18.2272232370349,8.895414834544" Connections="181,184,185" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="186" Name="C60" DisplayStyle="Ball and Stick" XYZ="9.94908225099604,17.0463363393292,8.901320945264" Connections="184,187,188" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="189" Name="C61" DisplayStyle="Ball and Stick" XYZ="11.3561369698423,17.0587667679433,8.896485317112" Connections="187,190,191" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="192" Name="C62" DisplayStyle="Ball and Stick" XYZ="11.9980271766799,18.3110645354006,8.88602042718" Connections="190,178,193" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="194" Name="C63" DisplayStyle="Ball and Stick" XYZ="11.9854298024288,20.8267273243166,8.868043702676" Connections="179,195,196" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="197" Name="C64" DisplayStyle="Ball and Stick" XYZ="7.7044101219488,18.1794321333724,8.892443322588" Connections="185,198,199" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="200" Name="C65" DisplayStyle="Ball and Stick" XYZ="12.1323871711918,15.7976509718604,8.894676570704" Connections="191,201,202" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="203" Name="C66" DisplayStyle="Ball and Stick" XYZ="6.91171134907721,19.3488818702175,8.8697786227" Connections="198,204,205" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="206" Name="C67" DisplayStyle="Ball and Stick" XYZ="5.5259641889642,19.3073939615991,8.855585500376" Connections="204,207,208" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="209" Name="C68" DisplayStyle="Ball and Stick" XYZ="4.80769790166737,18.085874111455,8.862506723876" Connections="139,207,210" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="211" Name="C69" DisplayStyle="Ball and Stick" XYZ="5.60136847198118,16.9128355514954,8.891335926828" Connections="210,212,213" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="214" Name="C70" DisplayStyle="Ball and Stick" XYZ="6.98733158708136,16.961498699805,8.90595355086" Connections="199,212,215" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="216" Name="C71" DisplayStyle="Ball and Stick" XYZ="11.508277258297,14.5299455107618,8.896116185192" Connections="201,217,218" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="219" Name="C72" DisplayStyle="Ball and Stick" XYZ="12.2295309229163,13.3460377840698,8.880464991784" Connections="217,220,221" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="222" Name="C73" DisplayStyle="Ball and Stick" XYZ="13.6457637287168,13.3270393354116,8.862082222168" Connections="220,135,223" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="224" Name="C74" DisplayStyle="Ball and Stick" XYZ="14.2727530414403,14.5972301936933,8.86940949078" Connections="223,225,226" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="227" Name="C75" DisplayStyle="Ball and Stick" XYZ="13.5454166446828,15.7781376333371,8.885171423764" Connections="202,225,228" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="229" Name="C76" DisplayStyle="Ball and Stick" XYZ="13.3950399886231,20.923207569467,8.870775278884" Connections="195,230,231" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="232" Name="C77" DisplayStyle="Ball and Stick" XYZ="14.0560422118245,22.141618260444,8.85575160974" Connections="230,125,233" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="234" Name="C78" DisplayStyle="Ball and Stick" XYZ="11.2924302486298,22.0581151997825,8.849587106676" Connections="196,127,235" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="236" Name="N1" DisplayStyle="Ball and Stick" XYZ="17.7292925734383,47.8807842026768,8.787628313904" Connections="3,30,34" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="N"/>
+		<Atom3d ID="237" Name="N2" DisplayStyle="Ball and Stick" XYZ="17.3724989421508,30.3326321302698,8.78524741302" Connections="46,6,42" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="N"/>
+		<Atom3d ID="238" Name="N3" DisplayStyle="Ball and Stick" XYZ="32.7598676573237,38.7577900865197,8.773638214136" Connections="54,58" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="N"/>
+		<Atom3d ID="239" Name="N4" DisplayStyle="Ball and Stick" XYZ="15.4468283216379,27.175409896268,8.788791079452" Connections="144,148,7" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="N"/>
+		<Atom3d ID="240" Name="N5" DisplayStyle="Ball and Stick" XYZ="0.469990037057627,17.9802760361753,8.780947026152" Connections="156,160" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="N"/>
+		<Atom3d ID="241" Name="N6" DisplayStyle="Ball and Stick" XYZ="15.8946109875158,9.61877098017405,8.77675737886" Connections="168,172" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="N"/>
+		<Atom3d ID="242" Name="H1" DisplayStyle="Ball and Stick" XYZ="19.6289406179983,48.7543454929392,8.809720859316" Connections="31" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="243" Name="H2" DisplayStyle="Ball and Stick" XYZ="20.8764046013327,46.665782326547,8.843607169572" Connections="28" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="244" Name="H3" DisplayStyle="Ball and Stick" XYZ="15.9772857551006,46.7400309723904,8.767049209364" Connections="35" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="245" Name="H4" DisplayStyle="Ball and Stick" XYZ="17.0752369023239,44.569800761273,8.798776097888" Connections="37" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="246" Name="H5" DisplayStyle="Ball and Stick" XYZ="18.0487619844448,42.8178157364128,8.821569993948" Connections="14" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="247" Name="H6" DisplayStyle="Ball and Stick" XYZ="30.2358937448819,41.0007005898425,8.821440797776" Connections="61" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="248" Name="H7" DisplayStyle="Ball and Stick" XYZ="32.6636597105436,40.8470612124373,8.768618020024" Connections="59" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="249" Name="H8" DisplayStyle="Ball and Stick" XYZ="30.1175864044156,36.6602267555965,8.824855268036" Connections="52" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="250" Name="H9" DisplayStyle="Ball and Stick" XYZ="32.5489516198634,36.6768040108553,8.771811011132" Connections="55" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="251" Name="H10" DisplayStyle="Ball and Stick" XYZ="17.9019485856733,35.3660770955182,8.83720273076" Connections="94" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="252" Name="H11" DisplayStyle="Ball and Stick" XYZ="16.8648967448293,33.6674112333703,8.798591531928" Connections="40" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="253" Name="H12" DisplayStyle="Ball and Stick" XYZ="15.6726092607145,31.5476595974444,8.752265475968" Connections="43" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="254" Name="H13" DisplayStyle="Ball and Stick" XYZ="19.2323032915796,29.3750593847835,8.809757772508" Connections="47" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="255" Name="H14" DisplayStyle="Ball and Stick" XYZ="21.8389879641041,44.9067169679956,8.858741578292" Connections="119" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="256" Name="H15" DisplayStyle="Ball and Stick" XYZ="22.993159392985,42.8036994195127,8.88463618248" Connections="117" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="257" Name="H16" DisplayStyle="Ball and Stick" XYZ="19.2100599279021,40.7190208763858,8.844806848312" Connections="121" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="258" Name="H17" DisplayStyle="Ball and Stick" XYZ="20.146764684712,39.0505073957892,8.88306737182" Connections="68" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="259" Name="H18" DisplayStyle="Ball and Stick" XYZ="23.8165597665313,36.8305631928671,8.906747184488" Connections="74" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="260" Name="H19" DisplayStyle="Ball and Stick" XYZ="23.9054612362458,41.1192031015009,8.877936438132" Connections="79" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="261" Name="H20" DisplayStyle="Ball and Stick" XYZ="25.8224216722765,41.0921393625261,8.887238562516" Connections="114" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="262" Name="H21" DisplayStyle="Ball and Stick" XYZ="28.2215736021395,41.0434058720466,8.860661064276" Connections="112" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="263" Name="H22" DisplayStyle="Ball and Stick" XYZ="25.7272215154365,36.7741201849578,8.907134773004" Connections="104" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="264" Name="H23" DisplayStyle="Ball and Stick" XYZ="28.1239979404407,36.7170939886697,8.881627757332" Connections="107" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="265" Name="H24" DisplayStyle="Ball and Stick" XYZ="19.1430059043886,37.4186027628858,8.860144279588" Connections="91" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="266" Name="H25" DisplayStyle="Ball and Stick" XYZ="22.8421348719639,35.1884018485888,8.92727091924" Connections="101" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="267" Name="H26" DisplayStyle="Ball and Stick" XYZ="21.607664180357,33.1309538446291,8.901911556336" Connections="99" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="268" Name="H27" DisplayStyle="Ball and Stick" XYZ="20.5707563095044,31.4074432398103,8.858372446372" Connections="49" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="269" Name="H28" DisplayStyle="Ball and Stick" XYZ="17.1995909824307,26.0356245758887,8.8102561006" Connections="145" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="270" Name="H29" DisplayStyle="Ball and Stick" XYZ="16.1021797226752,23.8660780482742,8.843736365744" Connections="142" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="271" Name="H30" DisplayStyle="Ball and Stick" XYZ="13.5463164571293,28.0505929345506,8.766550881272" Connections="149" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="272" Name="H31" DisplayStyle="Ball and Stick" XYZ="12.2972328113912,25.9603116169485,8.797539505956" Connections="151" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="273" Name="H32" DisplayStyle="Ball and Stick" XYZ="11.3386446158822,24.1845774414278,8.821533080756" Connections="128" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="274" Name="H33" DisplayStyle="Ball and Stick" XYZ="16.4142346791226,12.953566722976,8.819779704136" Connections="175" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="275" Name="H34" DisplayStyle="Ball and Stick" XYZ="17.6011232885584,10.8291314430909,8.76946702344" Connections="173" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="276" Name="H35" DisplayStyle="Ball and Stick" XYZ="12.6991610349953,10.7041081400997,8.823212630992" Connections="166" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="277" Name="H36" DisplayStyle="Ball and Stick" XYZ="14.0310634183095,8.67024168465222,8.772936863488" Connections="169" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="278" Name="H37" DisplayStyle="Ball and Stick" XYZ="4.98967597084821,20.2566896309482,8.836852055436" Connections="208" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="279" Name="H38" DisplayStyle="Ball and Stick" XYZ="3.00443776637681,20.2085283897626,8.8005663877" Connections="154" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="280" Name="H39" DisplayStyle="Ball and Stick" XYZ="0.578831350586672,20.0670996544202,8.7511949934" Connections="157" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="281" Name="H40" DisplayStyle="Ball and Stick" XYZ="0.667984767786223,15.8970715201038,8.808705746536" Connections="161" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="282" Name="H41" DisplayStyle="Ball and Stick" XYZ="15.1459310395272,22.1276496157886,8.858593925524" Connections="233" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="283" Name="H42" DisplayStyle="Ball and Stick" XYZ="14.0042490074037,20.0199528020449,8.884802291844" Connections="231" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="284" Name="H43" DisplayStyle="Ball and Stick" XYZ="10.20282936091,22.0701341156112,8.84495450108" Connections="235" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="285" Name="H44" DisplayStyle="Ball and Stick" XYZ="9.3065801716948,20.3777402457867,8.883104285012" Connections="182" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="286" Name="H45" DisplayStyle="Ball and Stick" XYZ="9.43438953159613,16.0901238824373,8.906433422356" Connections="188" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="287" Name="H46" DisplayStyle="Ball and Stick" XYZ="13.0842447696009,18.3434295283641,8.878490136012" Connections="193" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="288" Name="H47" DisplayStyle="Ball and Stick" XYZ="14.1031563915234,16.7144762262428,8.887570781244" Connections="228" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="289" Name="H48" DisplayStyle="Ball and Stick" XYZ="15.3606262892629,14.6702820481097,8.860697977468" Connections="226" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="290" Name="H49" DisplayStyle="Ball and Stick" XYZ="10.4210878679338,14.4571624932477,8.907300882368" Connections="218" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="291" Name="H50" DisplayStyle="Ball and Stick" XYZ="11.6695236487104,12.410551991711,8.881424734776" Connections="221" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="292" Name="H51" DisplayStyle="Ball and Stick" XYZ="7.3861644558695,20.3298593208667,8.859922800436" Connections="205" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="293" Name="H52" DisplayStyle="Ball and Stick" XYZ="7.52412370016739,16.0134467718805,8.927215549452" Connections="215" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="294" Name="H53" DisplayStyle="Ball and Stick" XYZ="5.1261955152317,15.9309878909604,8.901874643144" Connections="213" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="295" Name="H54" DisplayStyle="Ball and Stick" XYZ="3.10158151810131,15.8679388935771,8.859959713628" Connections="163" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Bond ID="9" Connects="12,8"/>
+		<Bond ID="10" Connects="15,8"/>
+		<Bond ID="16" Connects="26,15" Type="Double"/>
+		<Bond ID="27" Connects="29,26"/>
+		<Bond ID="17" Connects="36,15"/>
+		<Bond ID="33" Connects="36,32" Type="Double"/>
+		<Bond ID="23" Connects="38,22" Type="Double"/>
+		<Bond ID="39" Connects="41,38"/>
+		<Bond ID="24" Connects="48,22"/>
+		<Bond ID="45" Connects="48,44" Type="Double"/>
+		<Bond ID="19" Connects="50,18" Type="Double"/>
+		<Bond ID="51" Connects="53,50"/>
+		<Bond ID="57" Connects="60,56" Type="Double"/>
+		<Bond ID="20" Connects="60,18"/>
+		<Bond ID="63" Connects="66,62"/>
+		<Bond ID="67" Connects="69,66" Type="Double"/>
+		<Bond ID="70" Connects="72,69"/>
+		<Bond ID="73" Connects="75,72" Type="Double"/>
+		<Bond ID="76" Connects="78,75"/>
+		<Bond ID="64" Connects="78,62" Type="Double"/>
+		<Bond ID="65" Connects="80,62"/>
+		<Bond ID="71" Connects="83,69"/>
+		<Bond ID="77" Connects="86,75"/>
+		<Bond ID="84" Connects="89,83" Type="Double"/>
+		<Bond ID="90" Connects="92,89"/>
+		<Bond ID="93" Connects="95,92" Type="Double"/>
+		<Bond ID="25" Connects="95,22"/>
+		<Bond ID="96" Connects="97,95"/>
+		<Bond ID="98" Connects="100,97" Type="Double"/>
+		<Bond ID="85" Connects="100,83"/>
+		<Bond ID="87" Connects="102,86" Type="Double"/>
+		<Bond ID="103" Connects="105,102"/>
+		<Bond ID="21" Connects="108,18"/>
+		<Bond ID="106" Connects="108,105" Type="Double"/>
+		<Bond ID="109" Connects="110,108"/>
+		<Bond ID="111" Connects="113,110" Type="Double"/>
+		<Bond ID="88" Connects="113,86"/>
+		<Bond ID="81" Connects="115,80" Type="Double"/>
+		<Bond ID="11" Connects="118,8" Type="Double"/>
+		<Bond ID="116" Connects="118,115"/>
+		<Bond ID="82" Connects="120,80"/>
+		<Bond ID="13" Connects="120,12" Type="Double"/>
+		<Bond ID="123" Connects="126,122"/>
+		<Bond ID="124" Connects="129,122"/>
+		<Bond ID="130" Connects="140,129" Type="Double"/>
+		<Bond ID="141" Connects="143,140"/>
+		<Bond ID="147" Connects="150,146" Type="Double"/>
+		<Bond ID="131" Connects="150,129"/>
+		<Bond ID="137" Connects="152,136" Type="Double"/>
+		<Bond ID="153" Connects="155,152"/>
+		<Bond ID="159" Connects="162,158" Type="Double"/>
+		<Bond ID="138" Connects="162,136"/>
+		<Bond ID="133" Connects="164,132" Type="Double"/>
+		<Bond ID="165" Connects="167,164"/>
+		<Bond ID="134" Connects="174,132"/>
+		<Bond ID="171" Connects="174,170" Type="Double"/>
+		<Bond ID="177" Connects="180,176"/>
+		<Bond ID="181" Connects="183,180" Type="Double"/>
+		<Bond ID="184" Connects="186,183"/>
+		<Bond ID="187" Connects="189,186" Type="Double"/>
+		<Bond ID="190" Connects="192,189"/>
+		<Bond ID="178" Connects="192,176" Type="Double"/>
+		<Bond ID="179" Connects="194,176"/>
+		<Bond ID="185" Connects="197,183"/>
+		<Bond ID="191" Connects="200,189"/>
+		<Bond ID="198" Connects="203,197" Type="Double"/>
+		<Bond ID="204" Connects="206,203"/>
+		<Bond ID="139" Connects="209,136"/>
+		<Bond ID="207" Connects="209,206" Type="Double"/>
+		<Bond ID="210" Connects="211,209"/>
+		<Bond ID="199" Connects="214,197"/>
+		<Bond ID="212" Connects="214,211" Type="Double"/>
+		<Bond ID="201" Connects="216,200" Type="Double"/>
+		<Bond ID="217" Connects="219,216"/>
+		<Bond ID="220" Connects="222,219" Type="Double"/>
+		<Bond ID="135" Connects="222,132"/>
+		<Bond ID="223" Connects="224,222"/>
+		<Bond ID="202" Connects="227,200"/>
+		<Bond ID="225" Connects="227,224" Type="Double"/>
+		<Bond ID="195" Connects="229,194" Type="Double"/>
+		<Bond ID="230" Connects="232,229"/>
+		<Bond ID="125" Connects="232,122" Type="Double"/>
+		<Bond ID="196" Connects="234,194"/>
+		<Bond ID="127" Connects="234,126" Type="Double"/>
+		<Bond ID="3" Connects="236,2"/>
+		<Bond ID="30" Connects="236,29" Type="Double"/>
+		<Bond ID="34" Connects="236,32"/>
+		<Bond ID="46" Connects="237,44"/>
+		<Bond ID="6" Connects="237,5"/>
+		<Bond ID="42" Connects="237,41" Type="Double"/>
+		<Bond ID="54" Connects="238,53" Type="Double"/>
+		<Bond ID="58" Connects="238,56"/>
+		<Bond ID="144" Connects="239,143" Type="Double"/>
+		<Bond ID="148" Connects="239,146"/>
+		<Bond ID="7" Connects="239,5"/>
+		<Bond ID="156" Connects="240,155" Type="Double"/>
+		<Bond ID="160" Connects="240,158"/>
+		<Bond ID="168" Connects="241,167" Type="Double"/>
+		<Bond ID="172" Connects="241,170"/>
+		<Bond ID="31" Connects="242,29"/>
+		<Bond ID="28" Connects="243,26"/>
+		<Bond ID="35" Connects="244,32"/>
+		<Bond ID="37" Connects="245,36"/>
+		<Bond ID="14" Connects="246,12"/>
+		<Bond ID="61" Connects="247,60"/>
+		<Bond ID="59" Connects="248,56"/>
+		<Bond ID="52" Connects="249,50"/>
+		<Bond ID="55" Connects="250,53"/>
+		<Bond ID="94" Connects="251,92"/>
+		<Bond ID="40" Connects="252,38"/>
+		<Bond ID="43" Connects="253,41"/>
+		<Bond ID="47" Connects="254,44"/>
+		<Bond ID="119" Connects="255,118"/>
+		<Bond ID="117" Connects="256,115"/>
+		<Bond ID="121" Connects="257,120"/>
+		<Bond ID="68" Connects="258,66"/>
+		<Bond ID="74" Connects="259,72"/>
+		<Bond ID="79" Connects="260,78"/>
+		<Bond ID="114" Connects="261,113"/>
+		<Bond ID="112" Connects="262,110"/>
+		<Bond ID="104" Connects="263,102"/>
+		<Bond ID="107" Connects="264,105"/>
+		<Bond ID="91" Connects="265,89"/>
+		<Bond ID="101" Connects="266,100"/>
+		<Bond ID="99" Connects="267,97"/>
+		<Bond ID="49" Connects="268,48"/>
+		<Bond ID="145" Connects="269,143"/>
+		<Bond ID="142" Connects="270,140"/>
+		<Bond ID="149" Connects="271,146"/>
+		<Bond ID="151" Connects="272,150"/>
+		<Bond ID="128" Connects="273,126"/>
+		<Bond ID="175" Connects="274,174"/>
+		<Bond ID="173" Connects="275,170"/>
+		<Bond ID="166" Connects="276,164"/>
+		<Bond ID="169" Connects="277,167"/>
+		<Bond ID="208" Connects="278,206"/>
+		<Bond ID="154" Connects="279,152"/>
+		<Bond ID="157" Connects="280,155"/>
+		<Bond ID="161" Connects="281,158"/>
+		<Bond ID="233" Connects="282,232"/>
+		<Bond ID="231" Connects="283,229"/>
+		<Bond ID="235" Connects="284,234"/>
+		<Bond ID="182" Connects="285,180"/>
+		<Bond ID="188" Connects="286,186"/>
+		<Bond ID="193" Connects="287,192"/>
+		<Bond ID="228" Connects="288,227"/>
+		<Bond ID="226" Connects="289,224"/>
+		<Bond ID="218" Connects="290,216"/>
+		<Bond ID="221" Connects="291,219"/>
+		<Bond ID="205" Connects="292,203"/>
+		<Bond ID="215" Connects="293,214"/>
+		<Bond ID="213" Connects="294,211"/>
+		<Bond ID="163" Connects="295,162"/>
+		<Atom3d ID="296" Name="Cu3" DisplayStyle="Ball and Stick" XYZ="16.3928911278915,70.2417338316218,8.783604775976" Connections="297,298" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="Cu"/>
+		<Atom3d ID="299" Name="C1" DisplayStyle="Ball and Stick" XYZ="19.8236600314216,85.5572916232656,8.837830255024" Connections="300,301,302" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="303" Name="C2" DisplayStyle="Ball and Stick" XYZ="19.1388307746369,84.3171321827951,8.835117135412" Connections="300,304,305" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="306" Name="C3" DisplayStyle="Ball and Stick" XYZ="19.1201866607453,86.8334238614914,8.82326800078" Connections="301,307,308" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="309" Name="C4" DisplayStyle="Ball and Stick" XYZ="29.8788481661093,80.3149746062707,8.834194305612" Connections="310,311,312" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="313" Name="C5" DisplayStyle="Ball and Stick" XYZ="18.8721623579911,74.2674640219023,8.837977907792" Connections="314,315,316" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="317" Name="C6" DisplayStyle="Ball and Stick" XYZ="19.7894671584545,88.0882834038426,8.826627101252" Connections="307,318,319" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="320" Name="C7" DisplayStyle="Ball and Stick" XYZ="19.0974753945956,89.2791473568527,8.808650376748" Connections="318,321,322" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="323" Name="C8" DisplayStyle="Ball and Stick" XYZ="17.0656628978931,88.1579096758164,8.785136673444" Connections="324,325,326" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="327" Name="C9" DisplayStyle="Ball and Stick" XYZ="17.7020102600603,86.9366223089835,8.802448960492" Connections="308,324,328" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="329" Name="C10" DisplayStyle="Ball and Stick" XYZ="17.4514664824559,74.2275289610066,8.805346646064" Connections="314,330,331" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="332" Name="C11" DisplayStyle="Ball and Stick" XYZ="16.7622461409322,73.0363584732942,8.77989500018" Connections="330,333,334" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="335" Name="C12" DisplayStyle="Ball and Stick" XYZ="18.7430572681668,71.8263062432243,8.811769541472" Connections="336,337,338" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="339" Name="C13" DisplayStyle="Ball and Stick" XYZ="19.4870221989358,72.985333447481,8.838162473752" Connections="315,336,340" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="341" Name="C14" DisplayStyle="Ball and Stick" XYZ="30.6214093894618,79.1018849692794,8.816845105372" Connections="310,342,343" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="344" Name="C15" DisplayStyle="Ball and Stick" XYZ="31.9981944176076,79.0947928348313,8.787259181984" Connections="342,345,346" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="347" Name="C16" DisplayStyle="Ball and Stick" XYZ="32.061649191335,81.4149945719823,8.785210499828" Connections="348,349,350" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="351" Name="C17" DisplayStyle="Ball and Stick" XYZ="30.6860159231207,81.4857522572187,8.81459340066" Connections="348,311,352" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="353" Name="C18" DisplayStyle="Ball and Stick" XYZ="21.9361677083264,81.7235420795836,8.880889493492" Connections="354,355,356" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="357" Name="C19" DisplayStyle="Ball and Stick" XYZ="21.2325503676587,80.5053033079102,8.886537211868" Connections="354,358,359" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="360" Name="C20" DisplayStyle="Ball and Stick" XYZ="21.886102143803,79.2597743382345,8.89552557412" Connections="358,361,362" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="363" Name="C21" DisplayStyle="Ball and Stick" XYZ="23.2927609451727,79.2590363351596,8.90143168484" Connections="361,364,365" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="366" Name="C22" DisplayStyle="Ball and Stick" XYZ="24.0455800304153,80.4475851292921,8.896300751152" Connections="364,367,368" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="369" Name="C23" DisplayStyle="Ball and Stick" XYZ="23.3423226147262,81.6665621446942,8.885632838664" Connections="367,355,370" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="371" Name="C24" DisplayStyle="Ball and Stick" XYZ="21.2217886107985,83.0205285452368,8.867803766928" Connections="356,372,373" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="374" Name="C25" DisplayStyle="Ball and Stick" XYZ="21.1212615642752,77.9925989940546,8.892701714932" Connections="362,375,376" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="377" Name="C26" DisplayStyle="Ball and Stick" XYZ="25.5266713173598,80.415698083903,8.894436634956" Connections="368,378,379" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="380" Name="C27" DisplayStyle="Ball and Stick" XYZ="19.7087359857542,77.9641231539474,8.870092384832" Connections="375,381,382" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="383" Name="C28" DisplayStyle="Ball and Stick" XYZ="18.9902897359681,76.7786260747506,8.855770066336" Connections="381,384,385" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="386" Name="C29" DisplayStyle="Ball and Stick" XYZ="19.626709083131,75.5131243962098,8.862543637068" Connections="384,316,387" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="388" Name="C30" DisplayStyle="Ball and Stick" XYZ="21.0424020014636,75.5401450199534,8.891409753212" Connections="387,389,390" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="391" Name="C31" DisplayStyle="Ball and Stick" XYZ="21.7548015116092,76.7294232230706,8.906156573416" Connections="389,376,392" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="393" Name="C32" DisplayStyle="Ball and Stick" XYZ="26.254871534066,79.2043457361342,8.896023902212" Connections="378,394,395" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="396" Name="C33" DisplayStyle="Ball and Stick" XYZ="27.6404387316898,79.1706572087349,8.88066801434" Connections="394,397,398" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="399" Name="C34" DisplayStyle="Ball and Stick" XYZ="28.4227356726798,80.3511888763667,8.862432897492" Connections="312,397,400" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="401" Name="C35" DisplayStyle="Ball and Stick" XYZ="27.6944634709778,81.5660668293784,8.869427947376" Connections="400,402,403" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="404" Name="C36" DisplayStyle="Ball and Stick" XYZ="26.3081764233969,81.5933687371469,8.884876118228" Connections="402,379,405" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="406" Name="C37" DisplayStyle="Ball and Stick" XYZ="21.903846445248,84.2583476368747,8.870646082712" Connections="372,407,408" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="409" Name="C38" DisplayStyle="Ball and Stick" XYZ="21.2376613023548,85.4740896291429,8.855806979528" Connections="302,407,410" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="411" Name="C39" DisplayStyle="Ball and Stick" XYZ="19.8110986496684,83.1046808149302,8.849457910504" Connections="373,304,412" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="413" Name="C40" DisplayStyle="Ball and Stick" XYZ="13.3606671531667,64.8520964819413,8.83775642864" Connections="414,415,416" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="417" Name="C41" DisplayStyle="Ball and Stick" XYZ="11.9478536346629,64.7570922316458,8.835061765624" Connections="414,418,419" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="420" Name="C42" DisplayStyle="Ball and Stick" XYZ="14.0569780167688,66.130754303956,8.82326800078" Connections="415,421,422" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="423" Name="C43" DisplayStyle="Ball and Stick" XYZ="14.4031538611876,53.5598394603687,8.833862086884" Connections="424,425,426" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="427" Name="C44" DisplayStyle="Ball and Stick" XYZ="3.35118949076134,59.5216033479369,8.837904081408" Connections="428,429,430" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="431" Name="C45" DisplayStyle="Ball and Stick" XYZ="15.4751904099517,66.2326376808975,8.82705160296" Connections="421,432,433" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="434" Name="C46" DisplayStyle="Ball and Stick" XYZ="16.1108539146595,67.4529430630074,8.809388640588" Connections="432,435,436" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="437" Name="C47" DisplayStyle="Ball and Stick" XYZ="14.078033628017,68.5753921076969,8.78506284706" Connections="438,439,440" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="441" Name="C48" DisplayStyle="Ball and Stick" XYZ="13.3851780442094,67.384204932607,8.801895262612" Connections="438,422,442" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="443" Name="C49" DisplayStyle="Ball and Stick" XYZ="2.55046439086694,60.6960185024977,8.805678864792" Connections="428,444,445" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="446" Name="C50" DisplayStyle="Ball and Stick" XYZ="1.17583891259271,60.6323903460831,8.77823390654" Connections="444,447,448" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="449" Name="C51" DisplayStyle="Ball and Stick" XYZ="1.22392488973385,58.3122509567076,8.809960795064" Connections="450,451,452" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="453" Name="C52" DisplayStyle="Ball and Stick" XYZ="2.60229358778553,58.3121666307502,8.838162473752" Connections="450,429,454" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="455" Name="C53" DisplayStyle="Ball and Stick" XYZ="13.7833630480361,52.280100924345,8.816512886644" Connections="424,456,457" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="458" Name="C54" DisplayStyle="Ball and Stick" XYZ="14.5236927365212,51.1195233585991,8.788514230512" Connections="456,459,460" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="461" Name="C55" DisplayStyle="Ball and Stick" XYZ="16.5106945733877,52.3203011954132,8.786484004952" Connections="462,463,464" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="465" Name="C56" DisplayStyle="Ball and Stick" XYZ="15.8244976016843,53.5149538148781,8.814279638528" Connections="425,462,466" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="467" Name="C57" DisplayStyle="Ball and Stick" XYZ="11.282352349229,60.9999559837863,8.881203255624" Connections="468,469,470" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="471" Name="C58" DisplayStyle="Ball and Stick" XYZ="9.87652137531002,60.9294567204676,8.886629494848" Connections="468,472,473" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="474" Name="C59" DisplayStyle="Ball and Stick" XYZ="9.18434964896178,59.7039882370349,8.895414834544" Connections="472,475,476" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="477" Name="C60" DisplayStyle="Ball and Stick" XYZ="9.94908225099604,58.5231013393292,8.901320945264" Connections="475,478,479" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="480" Name="C61" DisplayStyle="Ball and Stick" XYZ="11.3561369698423,58.5355317679433,8.896485317112" Connections="478,481,482" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="483" Name="C62" DisplayStyle="Ball and Stick" XYZ="11.9980271766799,59.7878295354005,8.88602042718" Connections="481,469,484" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="485" Name="C63" DisplayStyle="Ball and Stick" XYZ="11.9854298024288,62.3034923243166,8.868043702676" Connections="470,486,487" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="488" Name="C64" DisplayStyle="Ball and Stick" XYZ="7.7044101219488,59.6561971333724,8.892443322588" Connections="476,489,490" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="491" Name="C65" DisplayStyle="Ball and Stick" XYZ="12.1323871711918,57.2744159718604,8.894676570704" Connections="482,492,493" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="494" Name="C66" DisplayStyle="Ball and Stick" XYZ="6.91171134907721,60.8256468702175,8.8697786227" Connections="489,495,496" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="497" Name="C67" DisplayStyle="Ball and Stick" XYZ="5.5259641889642,60.7841589615991,8.855585500376" Connections="495,498,499" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="500" Name="C68" DisplayStyle="Ball and Stick" XYZ="4.80769790166737,59.562639111455,8.862506723876" Connections="430,498,501" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="502" Name="C69" DisplayStyle="Ball and Stick" XYZ="5.60136847198118,58.3896005514954,8.891335926828" Connections="501,503,504" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="505" Name="C70" DisplayStyle="Ball and Stick" XYZ="6.98733158708136,58.438263699805,8.90595355086" Connections="490,503,506" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="507" Name="C71" DisplayStyle="Ball and Stick" XYZ="11.508277258297,56.0067105107618,8.896116185192" Connections="492,508,509" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="510" Name="C72" DisplayStyle="Ball and Stick" XYZ="12.2295309229163,54.8228027840698,8.880464991784" Connections="508,511,512" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="513" Name="C73" DisplayStyle="Ball and Stick" XYZ="13.6457637287168,54.8038043354116,8.862082222168" Connections="511,426,514" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="515" Name="C74" DisplayStyle="Ball and Stick" XYZ="14.2727530414403,56.0739951936933,8.86940949078" Connections="514,516,517" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="518" Name="C75" DisplayStyle="Ball and Stick" XYZ="13.5454166446828,57.2549026333371,8.885171423764" Connections="493,516,519" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="520" Name="C76" DisplayStyle="Ball and Stick" XYZ="13.3950399886231,62.399972569467,8.870775278884" Connections="486,521,522" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="523" Name="C77" DisplayStyle="Ball and Stick" XYZ="14.0560422118245,63.618383260444,8.85575160974" Connections="521,416,524" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="525" Name="C78" DisplayStyle="Ball and Stick" XYZ="11.2924302486298,63.5348801997825,8.849587106676" Connections="487,418,526" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="C"/>
+		<Atom3d ID="527" Name="N1" DisplayStyle="Ball and Stick" XYZ="17.7292925734383,89.3575492026768,8.787628313904" Connections="321,325" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="N"/>
+		<Atom3d ID="528" Name="N2" DisplayStyle="Ball and Stick" XYZ="17.3724989421508,71.8093971302698,8.78524741302" Connections="337,297,333" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="N"/>
+		<Atom3d ID="529" Name="N3" DisplayStyle="Ball and Stick" XYZ="32.7598676573237,80.2345550865197,8.773638214136" Connections="345,349" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="N"/>
+		<Atom3d ID="530" Name="N4" DisplayStyle="Ball and Stick" XYZ="15.4468283216379,68.652174896268,8.788791079452" Connections="435,439,298" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="N"/>
+		<Atom3d ID="531" Name="N5" DisplayStyle="Ball and Stick" XYZ="0.469990037057627,59.4570410361753,8.780947026152" Connections="447,451" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="N"/>
+		<Atom3d ID="532" Name="N6" DisplayStyle="Ball and Stick" XYZ="15.8946109875158,51.0955359801741,8.77675737886" Connections="459,463,4" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="N"/>
+		<Atom3d ID="533" Name="H1" DisplayStyle="Ball and Stick" XYZ="19.6289406179983,90.2311104929393,8.809720859316" Connections="322" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="534" Name="H2" DisplayStyle="Ball and Stick" XYZ="20.8764046013327,88.142547326547,8.843607169572" Connections="319" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="535" Name="H3" DisplayStyle="Ball and Stick" XYZ="15.9772857551006,88.2167959723904,8.767049209364" Connections="326" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="536" Name="H4" DisplayStyle="Ball and Stick" XYZ="17.0752369023239,86.046565761273,8.798776097888" Connections="328" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="537" Name="H5" DisplayStyle="Ball and Stick" XYZ="18.0487619844448,84.2945807364128,8.821569993948" Connections="305" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="538" Name="H6" DisplayStyle="Ball and Stick" XYZ="30.2358937448819,82.4774655898425,8.821440797776" Connections="352" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="539" Name="H7" DisplayStyle="Ball and Stick" XYZ="32.6636597105436,82.3238262124373,8.768618020024" Connections="350" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="540" Name="H8" DisplayStyle="Ball and Stick" XYZ="30.1175864044156,78.1369917555965,8.824855268036" Connections="343" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="541" Name="H9" DisplayStyle="Ball and Stick" XYZ="32.5489516198634,78.1535690108553,8.771811011132" Connections="346" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="542" Name="H10" DisplayStyle="Ball and Stick" XYZ="17.9019485856733,76.8428420955182,8.83720273076" Connections="385" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="543" Name="H11" DisplayStyle="Ball and Stick" XYZ="16.8648967448293,75.1441762333703,8.798591531928" Connections="331" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="544" Name="H12" DisplayStyle="Ball and Stick" XYZ="15.6726092607145,73.0244245974444,8.752265475968" Connections="334" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="545" Name="H13" DisplayStyle="Ball and Stick" XYZ="19.2323032915796,70.8518243847835,8.809757772508" Connections="338" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="546" Name="H14" DisplayStyle="Ball and Stick" XYZ="21.8389879641041,86.3834819679956,8.858741578292" Connections="410" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="547" Name="H15" DisplayStyle="Ball and Stick" XYZ="22.993159392985,84.2804644195127,8.88463618248" Connections="408" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="548" Name="H16" DisplayStyle="Ball and Stick" XYZ="19.2100599279021,82.1957858763858,8.844806848312" Connections="412" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="549" Name="H17" DisplayStyle="Ball and Stick" XYZ="20.146764684712,80.5272723957892,8.88306737182" Connections="359" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="550" Name="H18" DisplayStyle="Ball and Stick" XYZ="23.8165597665313,78.3073281928671,8.906747184488" Connections="365" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="551" Name="H19" DisplayStyle="Ball and Stick" XYZ="23.9054612362458,82.5959681015009,8.877936438132" Connections="370" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="552" Name="H20" DisplayStyle="Ball and Stick" XYZ="25.8224216722765,82.5689043625261,8.887238562516" Connections="405" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="553" Name="H21" DisplayStyle="Ball and Stick" XYZ="28.2215736021395,82.5201708720466,8.860661064276" Connections="403" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="554" Name="H22" DisplayStyle="Ball and Stick" XYZ="25.7272215154365,78.2508851849578,8.907134773004" Connections="395" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="555" Name="H23" DisplayStyle="Ball and Stick" XYZ="28.1239979404407,78.1938589886697,8.881627757332" Connections="398" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="556" Name="H24" DisplayStyle="Ball and Stick" XYZ="19.1430059043886,78.8953677628858,8.860144279588" Connections="382" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="557" Name="H25" DisplayStyle="Ball and Stick" XYZ="22.8421348719639,76.6651668485888,8.92727091924" Connections="392" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="558" Name="H26" DisplayStyle="Ball and Stick" XYZ="21.607664180357,74.6077188446291,8.901911556336" Connections="390" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="559" Name="H27" DisplayStyle="Ball and Stick" XYZ="20.5707563095044,72.8842082398103,8.858372446372" Connections="340" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="560" Name="H28" DisplayStyle="Ball and Stick" XYZ="17.1995909824307,67.5123895758887,8.8102561006" Connections="436" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="561" Name="H29" DisplayStyle="Ball and Stick" XYZ="16.1021797226752,65.3428430482742,8.843736365744" Connections="433" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="562" Name="H30" DisplayStyle="Ball and Stick" XYZ="13.5463164571293,69.5273579345506,8.766550881272" Connections="440" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="563" Name="H31" DisplayStyle="Ball and Stick" XYZ="12.2972328113912,67.4370766169485,8.797539505956" Connections="442" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="564" Name="H32" DisplayStyle="Ball and Stick" XYZ="11.3386446158822,65.6613424414278,8.821533080756" Connections="419" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="565" Name="H33" DisplayStyle="Ball and Stick" XYZ="16.4142346791226,54.430331722976,8.819779704136" Connections="466" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="566" Name="H34" DisplayStyle="Ball and Stick" XYZ="17.6011232885584,52.3058964430909,8.76946702344" Connections="464" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="567" Name="H35" DisplayStyle="Ball and Stick" XYZ="12.6991610349953,52.1808731400997,8.823212630992" Connections="457" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="568" Name="H36" DisplayStyle="Ball and Stick" XYZ="14.0310634183095,50.1470066846522,8.772936863488" Connections="460" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="569" Name="H37" DisplayStyle="Ball and Stick" XYZ="4.98967597084821,61.7334546309482,8.836852055436" Connections="499" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="570" Name="H38" DisplayStyle="Ball and Stick" XYZ="3.00443776637681,61.6852933897626,8.8005663877" Connections="445" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="571" Name="H39" DisplayStyle="Ball and Stick" XYZ="0.578831350586672,61.5438646544202,8.7511949934" Connections="448" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="572" Name="H40" DisplayStyle="Ball and Stick" XYZ="0.667984767786223,57.3738365201038,8.808705746536" Connections="452" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="573" Name="H41" DisplayStyle="Ball and Stick" XYZ="15.1459310395272,63.6044146157886,8.858593925524" Connections="524" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="574" Name="H42" DisplayStyle="Ball and Stick" XYZ="14.0042490074037,61.4967178020449,8.884802291844" Connections="522" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="575" Name="H43" DisplayStyle="Ball and Stick" XYZ="10.20282936091,63.5468991156112,8.84495450108" Connections="526" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="576" Name="H44" DisplayStyle="Ball and Stick" XYZ="9.3065801716948,61.8545052457867,8.883104285012" Connections="473" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="577" Name="H45" DisplayStyle="Ball and Stick" XYZ="9.43438953159613,57.5668888824373,8.906433422356" Connections="479" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="578" Name="H46" DisplayStyle="Ball and Stick" XYZ="13.0842447696009,59.8201945283641,8.878490136012" Connections="484" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="579" Name="H47" DisplayStyle="Ball and Stick" XYZ="14.1031563915234,58.1912412262428,8.887570781244" Connections="519" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="580" Name="H48" DisplayStyle="Ball and Stick" XYZ="15.3606262892629,56.1470470481097,8.860697977468" Connections="517" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="581" Name="H49" DisplayStyle="Ball and Stick" XYZ="10.4210878679338,55.9339274932477,8.907300882368" Connections="509" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="582" Name="H50" DisplayStyle="Ball and Stick" XYZ="11.6695236487104,53.887316991711,8.881424734776" Connections="512" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="583" Name="H51" DisplayStyle="Ball and Stick" XYZ="7.3861644558695,61.8066243208667,8.859922800436" Connections="496" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="584" Name="H52" DisplayStyle="Ball and Stick" XYZ="7.52412370016739,57.4902117718805,8.927215549452" Connections="506" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="585" Name="H53" DisplayStyle="Ball and Stick" XYZ="5.1261955152317,57.4077528909604,8.901874643144" Connections="504" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Atom3d ID="586" Name="H54" DisplayStyle="Ball and Stick" XYZ="3.10158151810131,57.3447038935771,8.859959713628" Connections="454" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="H"/>
+		<Bond ID="300" Connects="303,299"/>
+		<Bond ID="301" Connects="306,299"/>
+		<Bond ID="307" Connects="317,306" Type="Double"/>
+		<Bond ID="318" Connects="320,317"/>
+		<Bond ID="308" Connects="327,306"/>
+		<Bond ID="324" Connects="327,323" Type="Double"/>
+		<Bond ID="314" Connects="329,313" Type="Double"/>
+		<Bond ID="330" Connects="332,329"/>
+		<Bond ID="315" Connects="339,313"/>
+		<Bond ID="336" Connects="339,335" Type="Double"/>
+		<Bond ID="310" Connects="341,309" Type="Double"/>
+		<Bond ID="342" Connects="344,341"/>
+		<Bond ID="348" Connects="351,347" Type="Double"/>
+		<Bond ID="311" Connects="351,309"/>
+		<Bond ID="354" Connects="357,353"/>
+		<Bond ID="358" Connects="360,357" Type="Double"/>
+		<Bond ID="361" Connects="363,360"/>
+		<Bond ID="364" Connects="366,363" Type="Double"/>
+		<Bond ID="367" Connects="369,366"/>
+		<Bond ID="355" Connects="369,353" Type="Double"/>
+		<Bond ID="356" Connects="371,353"/>
+		<Bond ID="362" Connects="374,360"/>
+		<Bond ID="368" Connects="377,366"/>
+		<Bond ID="375" Connects="380,374" Type="Double"/>
+		<Bond ID="381" Connects="383,380"/>
+		<Bond ID="384" Connects="386,383" Type="Double"/>
+		<Bond ID="316" Connects="386,313"/>
+		<Bond ID="387" Connects="388,386"/>
+		<Bond ID="389" Connects="391,388" Type="Double"/>
+		<Bond ID="376" Connects="391,374"/>
+		<Bond ID="378" Connects="393,377" Type="Double"/>
+		<Bond ID="394" Connects="396,393"/>
+		<Bond ID="312" Connects="399,309"/>
+		<Bond ID="397" Connects="399,396" Type="Double"/>
+		<Bond ID="400" Connects="401,399"/>
+		<Bond ID="402" Connects="404,401" Type="Double"/>
+		<Bond ID="379" Connects="404,377"/>
+		<Bond ID="372" Connects="406,371" Type="Double"/>
+		<Bond ID="302" Connects="409,299" Type="Double"/>
+		<Bond ID="407" Connects="409,406"/>
+		<Bond ID="373" Connects="411,371"/>
+		<Bond ID="304" Connects="411,303" Type="Double"/>
+		<Bond ID="414" Connects="417,413"/>
+		<Bond ID="415" Connects="420,413"/>
+		<Bond ID="421" Connects="431,420" Type="Double"/>
+		<Bond ID="432" Connects="434,431"/>
+		<Bond ID="438" Connects="441,437" Type="Double"/>
+		<Bond ID="422" Connects="441,420"/>
+		<Bond ID="428" Connects="443,427" Type="Double"/>
+		<Bond ID="444" Connects="446,443"/>
+		<Bond ID="450" Connects="453,449" Type="Double"/>
+		<Bond ID="429" Connects="453,427"/>
+		<Bond ID="424" Connects="455,423" Type="Double"/>
+		<Bond ID="456" Connects="458,455"/>
+		<Bond ID="425" Connects="465,423"/>
+		<Bond ID="462" Connects="465,461" Type="Double"/>
+		<Bond ID="468" Connects="471,467"/>
+		<Bond ID="472" Connects="474,471" Type="Double"/>
+		<Bond ID="475" Connects="477,474"/>
+		<Bond ID="478" Connects="480,477" Type="Double"/>
+		<Bond ID="481" Connects="483,480"/>
+		<Bond ID="469" Connects="483,467" Type="Double"/>
+		<Bond ID="470" Connects="485,467"/>
+		<Bond ID="476" Connects="488,474"/>
+		<Bond ID="482" Connects="491,480"/>
+		<Bond ID="489" Connects="494,488" Type="Double"/>
+		<Bond ID="495" Connects="497,494"/>
+		<Bond ID="430" Connects="500,427"/>
+		<Bond ID="498" Connects="500,497" Type="Double"/>
+		<Bond ID="501" Connects="502,500"/>
+		<Bond ID="490" Connects="505,488"/>
+		<Bond ID="503" Connects="505,502" Type="Double"/>
+		<Bond ID="492" Connects="507,491" Type="Double"/>
+		<Bond ID="508" Connects="510,507"/>
+		<Bond ID="511" Connects="513,510" Type="Double"/>
+		<Bond ID="426" Connects="513,423"/>
+		<Bond ID="514" Connects="515,513"/>
+		<Bond ID="493" Connects="518,491"/>
+		<Bond ID="516" Connects="518,515" Type="Double"/>
+		<Bond ID="486" Connects="520,485" Type="Double"/>
+		<Bond ID="521" Connects="523,520"/>
+		<Bond ID="416" Connects="523,413" Type="Double"/>
+		<Bond ID="487" Connects="525,485"/>
+		<Bond ID="418" Connects="525,417" Type="Double"/>
+		<Bond ID="321" Connects="527,320" Type="Double"/>
+		<Bond ID="325" Connects="527,323"/>
+		<Bond ID="337" Connects="528,335"/>
+		<Bond ID="297" Connects="528,296"/>
+		<Bond ID="333" Connects="528,332" Type="Double"/>
+		<Bond ID="345" Connects="529,344" Type="Double"/>
+		<Bond ID="349" Connects="529,347"/>
+		<Bond ID="435" Connects="530,434" Type="Double"/>
+		<Bond ID="439" Connects="530,437"/>
+		<Bond ID="298" Connects="530,296"/>
+		<Bond ID="447" Connects="531,446" Type="Double"/>
+		<Bond ID="451" Connects="531,449"/>
+		<Bond ID="459" Connects="532,458" Type="Double"/>
+		<Bond ID="463" Connects="532,461"/>
+		<Bond ID="4" Connects="532,2"/>
+		<Bond ID="322" Connects="533,320"/>
+		<Bond ID="319" Connects="534,317"/>
+		<Bond ID="326" Connects="535,323"/>
+		<Bond ID="328" Connects="536,327"/>
+		<Bond ID="305" Connects="537,303"/>
+		<Bond ID="352" Connects="538,351"/>
+		<Bond ID="350" Connects="539,347"/>
+		<Bond ID="343" Connects="540,341"/>
+		<Bond ID="346" Connects="541,344"/>
+		<Bond ID="385" Connects="542,383"/>
+		<Bond ID="331" Connects="543,329"/>
+		<Bond ID="334" Connects="544,332"/>
+		<Bond ID="338" Connects="545,335"/>
+		<Bond ID="410" Connects="546,409"/>
+		<Bond ID="408" Connects="547,406"/>
+		<Bond ID="412" Connects="548,411"/>
+		<Bond ID="359" Connects="549,357"/>
+		<Bond ID="365" Connects="550,363"/>
+		<Bond ID="370" Connects="551,369"/>
+		<Bond ID="405" Connects="552,404"/>
+		<Bond ID="403" Connects="553,401"/>
+		<Bond ID="395" Connects="554,393"/>
+		<Bond ID="398" Connects="555,396"/>
+		<Bond ID="382" Connects="556,380"/>
+		<Bond ID="392" Connects="557,391"/>
+		<Bond ID="390" Connects="558,388"/>
+		<Bond ID="340" Connects="559,339"/>
+		<Bond ID="436" Connects="560,434"/>
+		<Bond ID="433" Connects="561,431"/>
+		<Bond ID="440" Connects="562,437"/>
+		<Bond ID="442" Connects="563,441"/>
+		<Bond ID="419" Connects="564,417"/>
+		<Bond ID="466" Connects="565,465"/>
+		<Bond ID="464" Connects="566,461"/>
+		<Bond ID="457" Connects="567,455"/>
+		<Bond ID="460" Connects="568,458"/>
+		<Bond ID="499" Connects="569,497"/>
+		<Bond ID="445" Connects="570,443"/>
+		<Bond ID="448" Connects="571,446"/>
+		<Bond ID="452" Connects="572,449"/>
+		<Bond ID="524" Connects="573,523"/>
+		<Bond ID="522" Connects="574,520"/>
+		<Bond ID="526" Connects="575,525"/>
+		<Bond ID="473" Connects="576,471"/>
+		<Bond ID="479" Connects="577,477"/>
+		<Bond ID="484" Connects="578,483"/>
+		<Bond ID="519" Connects="579,518"/>
+		<Bond ID="517" Connects="580,515"/>
+		<Bond ID="509" Connects="581,507"/>
+		<Bond ID="512" Connects="582,510"/>
+		<Bond ID="496" Connects="583,494"/>
+		<Bond ID="506" Connects="584,505"/>
+		<Bond ID="504" Connects="585,502"/>
+		<Bond ID="454" Connects="586,453"/>
+	</AtomisticTreeRoot>
+</XSD>
