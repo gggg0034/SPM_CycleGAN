@@ -1,13 +1,11 @@
 
-<img src='transparency/real-time-gif.gif' align="right" width=384>
+<img src='transparency/real-time-gif.gif' align="center" width=800>
 
 <br><br><br>
 
 # SPM_CycleGAN
 
-**New**:  Please check out [contrastive-unpaired-translation](https://github.com/taesungp/contrastive-unpaired-translation) (CUT), our new unpaired image-to-image translation model that enables fast and memory-efficient training.
-
-We provide PyTorch implementations for both unpaired and paired image-to-image translation.
+We provide PyTorch implementations for both unpaired and paired Molecular model to SPM image translation.
 
 The code is modified by [Zhiwen Zhu](https://github.com/gggg0034) and utilized. The original code comes from [Jun-Yan Zhu](https://github.com/junyanz) and [Taesung Park](https://github.com/taesungp).
 
