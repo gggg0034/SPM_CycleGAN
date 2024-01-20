@@ -9,7 +9,7 @@ We provide PyTorch implementations for both unpaired and paired Molecular model 
 
 The code is modified by [Zhiwen Zhu](https://github.com/gggg0034). The original code comes from [Jun-Yan Zhu](https://github.com/junyanz) and [Taesung Park](https://github.com/taesungp).
 
-**Note**: The current software works well with PyTorch 1.4. Check out the older [branch](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix/tree/pytorch0.3.1) that supports PyTorch 0.1-0.3.
+**Note**: The current software works well with PyTorch 1.4
 
 **CycleGAN: [Project](https://junyanz.github.io/CycleGAN/) |  [Paper](https://arxiv.org/pdf/1703.10593.pdf) |  [Torch](https://github.com/junyanz/CycleGAN) |
 [Tensorflow Core Tutorial](https://www.tensorflow.org/tutorials/generative/cyclegan) | [PyTorch Colab](https://colab.research.google.com/github/junyanz/pytorch-CycleGAN-and-pix2pix/blob/master/CycleGAN.ipynb)**
