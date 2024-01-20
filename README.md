@@ -118,4 +118,4 @@ If you use this code for your research, please cite our papers.
 **[iGAN](https://github.com/junyanz/iGAN) | [GAN Dissection](https://github.com/CSAILVision/GANDissect) | [GAN Paint](http://ganpaint.io/)**
 
 ## Acknowledgments
-Our code is inspired by [pytorch-DCGAN](https://github.com/pytorch/examples/tree/master/dcgan).
+This code is inspired by [pytorch-DCGAN](https://github.com/pytorch/examples/tree/master/dcgan).
