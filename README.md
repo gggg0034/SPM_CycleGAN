@@ -7,7 +7,7 @@
 
 We provide PyTorch implementations for both unpaired and paired Molecular model to SPM image translation.
 
-The code is modified by [Zhiwen Zhu](https://github.com/gggg0034) and utilized. The original code comes from [Jun-Yan Zhu](https://github.com/junyanz) and [Taesung Park](https://github.com/taesungp).
+The code is modified by [Zhiwen Zhu](https://github.com/gggg0034). The original code comes from [Jun-Yan Zhu](https://github.com/junyanz) and [Taesung Park](https://github.com/taesungp).
 
 **Note**: The current software works well with PyTorch 1.4. Check out the older [branch](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix/tree/pytorch0.3.1) that supports PyTorch 0.1-0.3.
 
